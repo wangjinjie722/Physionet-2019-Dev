@@ -1,0 +1,1616 @@
+,group,numbers
+0,(),571792
+1,"('Glucose',)",110422
+2,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",8939
+3,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",5225
+4,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium')",4502
+5,"('TroponinI',)",4439
+6,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",3333
+7,"('Hct', 'Hgb', 'WBC', 'Platelets')",2892
+8,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",2880
+9,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium')",1854
+10,"('FiO2', 'pH', 'PaCO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Potassium')",1830
+11,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium')",1819
+12,"('FiO2', 'pH', 'PaCO2', 'SaO2')",1661
+13,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",1422
+14,"('Hct', 'Hgb')",1354
+15,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium')",1202
+16,"('Magnesium', 'Potassium')",1143
+17,"('Potassium',)",1119
+18,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1111
+19,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Lactate', 'Potassium')",1083
+20,"('FiO2',)",1015
+21,"('Glucose', 'TroponinI')",983
+22,"('Glucose', 'Hct', 'Hgb', 'WBC', 'Platelets')",909
+23,"('BaseExcess', 'HCO3', 'pH', 'PaCO2', 'SaO2', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb')",892
+24,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",848
+25,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",814
+26,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",714
+27,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Potassium')",629
+28,"('Hgb',)",580
+29,"('Magnesium',)",579
+30,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",554
+31,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",546
+32,"('FiO2', 'Glucose')",536
+33,"('Glucose', 'Magnesium', 'Potassium')",516
+34,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",512
+35,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Glucose')",494
+36,"('PTT',)",465
+37,"('pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium')",458
+38,"('Glucose', 'Potassium')",409
+39,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",406
+40,"('BaseExcess', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'Lactate', 'Potassium', 'Hct')",405
+41,"('Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",356
+42,"('TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",340
+43,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",331
+44,"('Glucose', 'Hct', 'Hgb')",322
+45,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total')",309
+46,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",303
+47,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total')",291
+48,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'TroponinI')",258
+49,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'TroponinI')",244
+50,"('pH', 'PaCO2', 'SaO2')",243
+51,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI')",235
+52,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",228
+53,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",221
+54,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",209
+55,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",199
+56,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Glucose', 'Lactate', 'Potassium')",197
+57,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",191
+58,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",190
+59,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total')",186
+60,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",177
+61,"('Glucose', 'Magnesium')",174
+62,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",169
+63,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",168
+64,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",164
+65,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",163
+66,"('FiO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium')",158
+67,"('Glucose', 'Magnesium', 'Phosphate', 'Potassium')",156
+68,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",152
+69,"('Glucose', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",142
+70,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Lactate')",136
+71,"('Magnesium', 'TroponinI')",129
+72,"('PTT', 'Fibrinogen', 'Platelets')",129
+73,"('Glucose', 'PTT')",124
+74,"('PTT', 'Fibrinogen')",123
+75,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",122
+76,"('Potassium', 'TroponinI')",122
+77,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",122
+78,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",121
+79,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Phosphate', 'Potassium')",119
+80,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",117
+81,"('TroponinI', 'Hct', 'Hgb')",114
+82,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",113
+83,"('Magnesium', 'Potassium', 'TroponinI')",112
+84,"('BaseExcess', 'HCO3', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb')",111
+85,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",109
+86,"('Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",104
+87,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Glucose', 'Lactate')",103
+88,"('Glucose', 'Hgb')",101
+89,"('Calcium', 'Glucose', 'Lactate', 'Potassium')",100
+90,"('Magnesium', 'Phosphate', 'Potassium')",99
+91,"('Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",95
+92,"('Fibrinogen',)",93
+93,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",92
+94,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",91
+95,"('FiO2', 'pH', 'PaCO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",89
+96,"('FiO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",89
+97,"('pH', 'PaCO2', 'SaO2', 'Glucose')",86
+98,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",84
+99,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Bilirubin_total')",81
+100,"('Glucose', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",81
+101,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",78
+102,"('BaseExcess', 'HCO3', 'pH', 'PaCO2', 'SaO2', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'Fibrinogen', 'Platelets')",78
+103,"('FiO2', 'pH', 'PaCO2')",77
+104,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",76
+105,"('Glucose', 'PTT', 'Fibrinogen')",74
+106,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",73
+107,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",72
+108,"('FiO2', 'Potassium')",72
+109,"('pH', 'PaCO2', 'SaO2', 'Calcium', 'Lactate', 'Potassium')",71
+110,"('BaseExcess', 'HCO3', 'pH', 'PaCO2', 'SaO2', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'Fibrinogen', 'Platelets')",70
+111,"('Magnesium', 'Potassium', 'Hct', 'Hgb')",68
+112,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI')",67
+113,"('Magnesium', 'Phosphate')",67
+114,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Hct', 'Hgb')",65
+115,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",65
+116,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'TroponinI')",64
+117,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",63
+118,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",63
+119,"('Phosphate',)",63
+120,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",58
+121,"('FiO2', 'pH', 'PaCO2', 'Glucose')",56
+122,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",56
+123,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",55
+124,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI')",55
+125,"('Magnesium', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",55
+126,"('FiO2', 'pH', 'PaCO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",55
+127,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",54
+128,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Potassium')",51
+129,"('FiO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium')",49
+130,"('FiO2', 'pH', 'PaCO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",48
+131,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",48
+132,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",47
+133,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",46
+134,"('TroponinI', 'PTT')",46
+135,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",45
+136,"('FiO2', 'Lactate')",45
+137,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",44
+138,"('HCO3', 'PaCO2', 'SaO2', 'Potassium', 'Hct', 'Hgb')",43
+139,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Potassium')",42
+140,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Lactate', 'Potassium')",42
+141,"('TroponinI', 'Hgb')",41
+142,"('Glucose', 'Potassium', 'TroponinI')",40
+143,"('Glucose', 'Magnesium', 'Phosphate')",40
+144,"('Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",39
+145,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total')",39
+146,"('Magnesium', 'Hct', 'Hgb', 'WBC', 'Platelets')",38
+147,"('HCO3', 'PaCO2', 'SaO2', 'Chloride', 'Lactate', 'Potassium', 'Hct', 'Hgb')",38
+148,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",38
+149,"('FiO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",38
+150,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",37
+151,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'TroponinI')",37
+152,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Potassium')",37
+153,"('pH', 'PaCO2', 'SaO2', 'Glucose', 'Lactate', 'Potassium')",37
+154,"('pH', 'PaCO2', 'SaO2', 'Lactate')",36
+155,"('Glucose', 'Fibrinogen')",36
+156,"('FiO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Potassium')",35
+157,"('Potassium', 'Hct', 'Hgb')",35
+158,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",35
+159,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium')",35
+160,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",34
+161,"('Glucose', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",34
+162,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Glucose', 'Bilirubin_total')",34
+163,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb')",33
+164,"('FiO2', 'pH', 'PaCO2', 'Chloride', 'Glucose', 'Lactate', 'Potassium')",33
+165,"('Glucose', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",33
+166,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Magnesium', 'Potassium')",32
+167,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'PTT', 'Fibrinogen')",32
+168,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Lactate')",31
+169,"('Glucose', 'Phosphate')",31
+170,"('BaseExcess', 'HCO3', 'pH', 'PaCO2', 'SaO2', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",31
+171,"('FiO2', 'Glucose', 'Potassium')",30
+172,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'PTT')",30
+173,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",29
+174,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Chloride', 'Glucose', 'Lactate', 'Potassium')",29
+175,"('FiO2', 'Glucose', 'Lactate', 'Potassium')",29
+176,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'TroponinI')",29
+177,"('FiO2', 'Lactate', 'Potassium')",29
+178,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Phosphate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",29
+179,"('Glucose', 'PTT', 'Fibrinogen', 'Platelets')",29
+180,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Potassium', 'Bilirubin_total')",28
+181,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Phosphate', 'Potassium', 'Bilirubin_total')",28
+182,"('pH', 'PaCO2', 'SaO2', 'Glucose', 'Lactate')",28
+183,"('Lactate',)",27
+184,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",27
+185,"('Glucose', 'Magnesium', 'Potassium', 'Hct', 'Hgb')",27
+186,"('Platelets',)",27
+187,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",27
+188,"('Hct', 'Hgb', 'PTT')",27
+189,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Hct', 'Hgb')",26
+190,"('Magnesium', 'Phosphate', 'Hct', 'Hgb', 'WBC', 'Platelets')",26
+191,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",26
+192,"('FiO2', 'pH', 'PaCO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium')",26
+193,"('BaseExcess', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'Lactate', 'Potassium', 'Hct', 'PTT', 'Fibrinogen', 'Platelets')",26
+194,"('FiO2', 'pH', 'PaCO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",25
+195,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",25
+196,"('BaseExcess', 'HCO3', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb')",25
+197,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",25
+198,"('Calcium',)",25
+199,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",25
+200,"('Glucose', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",24
+201,"('FiO2', 'pH', 'PaCO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",24
+202,"('Glucose', 'TroponinI', 'Hct', 'Hgb')",23
+203,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium')",23
+204,"('HCO3', 'PaCO2', 'Chloride', 'Lactate', 'Potassium', 'Hct', 'Hgb')",23
+205,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium')",23
+206,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",23
+207,"('pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",22
+208,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",22
+209,"('Glucose', 'Magnesium', 'TroponinI')",22
+210,"('TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",22
+211,"('TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",22
+212,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Phosphate', 'Potassium', 'TroponinI')",22
+213,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'PTT', 'Fibrinogen', 'Platelets')",22
+214,"('FiO2', 'pH', 'PaCO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",22
+215,"('FiO2', 'TroponinI')",21
+216,"('Glucose', 'Potassium', 'Hct', 'Hgb')",21
+217,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",21
+218,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Hgb')",21
+219,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",21
+220,"('FiO2', 'Hct', 'Hgb', 'WBC', 'Platelets')",21
+221,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",21
+222,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate')",20
+223,"('Magnesium', 'Phosphate', 'TroponinI')",20
+224,"('FiO2', 'pH', 'PaCO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",20
+225,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium')",20
+226,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",20
+227,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'PTT', 'Fibrinogen')",20
+228,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",20
+229,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Glucose', 'Potassium')",20
+230,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",20
+231,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",20
+232,"('FiO2', 'pH', 'SaO2')",20
+233,"('FiO2', 'pH', 'PaCO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",19
+234,"('FiO2', 'pH', 'PaCO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium')",19
+235,"('Bilirubin_direct',)",19
+236,"('FiO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium')",19
+237,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Hct', 'Hgb', 'WBC', 'Platelets')",18
+238,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Bilirubin_total', 'TroponinI')",18
+239,"('pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",18
+240,"('Hct', 'Hgb', 'PTT', 'Fibrinogen')",18
+241,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",18
+242,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",18
+243,"('FiO2', 'Glucose', 'Lactate')",17
+244,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'PTT')",17
+245,"('Glucose', 'Magnesium', 'Potassium', 'TroponinI')",17
+246,"('Hct',)",17
+247,"('Magnesium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",17
+248,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium')",16
+249,"('FiO2', 'Magnesium', 'Potassium')",16
+250,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",16
+251,"('FiO2', 'pH', 'PaCO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'TroponinI')",16
+252,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",16
+253,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",16
+254,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'PTT')",16
+255,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'PTT')",16
+256,"('Glucose', 'Lactate')",15
+257,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",15
+258,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",15
+259,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",15
+260,"('FiO2', 'pH', 'PaCO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",14
+261,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",14
+262,"('Magnesium', 'Phosphate', 'Potassium', 'TroponinI')",14
+263,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'PTT')",14
+264,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'Fibrinogen', 'Platelets')",14
+265,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",13
+266,"('pH', 'PaCO2', 'SaO2', 'Calcium', 'Potassium')",13
+267,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Hgb')",13
+268,"('Lactate', 'Potassium')",13
+269,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",13
+270,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",13
+271,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",13
+272,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",13
+273,"('Phosphate', 'Potassium')",13
+274,"('pH', 'PaCO2', 'SaO2', 'Calcium', 'Lactate')",13
+275,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",13
+276,"('Glucose', 'TroponinI', 'PTT')",13
+277,"('FiO2', 'Lactate', 'Potassium', 'Hct')",13
+278,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Glucose', 'TroponinI')",13
+279,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",13
+280,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",13
+281,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total')",13
+282,"('Glucose', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",12
+283,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",12
+284,"('Creatinine',)",12
+285,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium')",12
+286,"('pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Potassium')",12
+287,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'PTT')",12
+288,"('Glucose', 'Platelets')",12
+289,"('FiO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium')",12
+290,"('Magnesium', 'Hct', 'Hgb')",12
+291,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",12
+292,"('pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",12
+293,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb')",12
+294,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Hgb')",12
+295,"('pH', 'PaCO2', 'SaO2', 'Glucose', 'Potassium')",11
+296,"('Phosphate', 'Hct', 'Hgb', 'WBC', 'Platelets')",11
+297,"('pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",11
+298,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb')",11
+299,"('pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",11
+300,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",11
+301,"('Glucose', 'Magnesium', 'Phosphate', 'TroponinI')",11
+302,"('pH', 'PaCO2', 'SaO2', 'Lactate', 'Potassium')",11
+303,"('FiO2', 'pH', 'PaCO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'PTT', 'Fibrinogen', 'Platelets')",11
+304,"('Fibrinogen', 'Platelets')",11
+305,"('FiO2', 'pH', 'PaCO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium')",11
+306,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI')",11
+307,"('Magnesium', 'Potassium', 'PTT')",11
+308,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total')",11
+309,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'TroponinI')",11
+310,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",11
+311,"('Glucose', 'Hct', 'Hgb', 'PTT', 'Fibrinogen', 'Platelets')",11
+312,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total')",11
+313,"('FiO2', 'pH', 'PaCO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'PTT', 'Fibrinogen')",10
+314,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",10
+315,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",10
+316,"('Glucose', 'Phosphate', 'Potassium')",10
+317,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium')",10
+318,"('Phosphate', 'TroponinI')",10
+319,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'Platelets')",10
+320,"('Hct', 'Hgb', 'Platelets')",10
+321,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Fibrinogen')",10
+322,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",10
+323,"('Hct', 'Hgb', 'Fibrinogen')",10
+324,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",10
+325,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",9
+326,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'TroponinI', 'Hct', 'Hgb')",9
+327,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",9
+328,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",9
+329,"('Glucose', 'Magnesium', 'Hct', 'Hgb', 'WBC', 'Platelets')",9
+330,"('BaseExcess', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",9
+331,"('BaseExcess', 'HCO3', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",9
+332,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",9
+333,"('pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate')",9
+334,"('Glucose', 'TroponinI', 'Hgb')",9
+335,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb')",9
+336,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",9
+337,"('Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI')",9
+338,"('Magnesium', 'TroponinI', 'PTT')",8
+339,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",8
+340,"('pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",8
+341,"('pH', 'PaCO2', 'SaO2', 'Potassium')",8
+342,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",8
+343,"('HCO3', 'pH', 'PaCO2', 'SaO2', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb')",8
+344,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",8
+345,"('BaseExcess', 'HCO3', 'pH', 'PaCO2', 'SaO2', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",8
+346,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",8
+347,"('Potassium', 'Hgb')",8
+348,"('FiO2', 'pH', 'PaCO2', 'Calcium', 'Chloride', 'Lactate', 'Potassium')",8
+349,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'TroponinI', 'PTT')",8
+350,"('Potassium', 'PTT')",8
+351,"('Glucose', 'Magnesium', 'Phosphate', 'Hct', 'Hgb', 'WBC', 'Platelets')",8
+352,"('Glucose', 'Lactate', 'Potassium')",8
+353,"('FiO2', 'pH', 'PaCO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'Fibrinogen', 'Platelets')",8
+354,"('Calcium', 'Glucose')",8
+355,"('FiO2', 'Glucose', 'Magnesium', 'Potassium')",8
+356,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'PTT')",8
+357,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",8
+358,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Magnesium')",7
+359,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",7
+360,"('FiO2', 'pH', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium')",7
+361,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",7
+362,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Lactate', 'TroponinI')",7
+363,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",7
+364,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",7
+365,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",7
+366,"('pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",7
+367,"('FiO2', 'Glucose', 'TroponinI')",7
+368,"('Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",7
+369,"('Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",7
+370,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'PTT')",7
+371,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium')",7
+372,"('Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",7
+373,"('Glucose', 'Magnesium', 'Potassium', 'PTT')",7
+374,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Phosphate', 'Potassium', 'Hct', 'Hgb')",7
+375,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Phosphate', 'Potassium')",7
+376,"('pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium')",7
+377,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total')",7
+378,"('pH', 'PaCO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Potassium')",7
+379,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium')",7
+380,"('pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium')",7
+381,"('Magnesium', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",7
+382,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",7
+383,"('FiO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",7
+384,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Potassium', 'Bilirubin_total', 'TroponinI')",7
+385,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",7
+386,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total')",7
+387,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Fibrinogen')",7
+388,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI')",7
+389,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",7
+390,"('FiO2', 'pH', 'PaCO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",7
+391,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose')",7
+392,"('Bilirubin_direct', 'Glucose')",6
+393,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'Alkalinephos', 'Calcium', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total')",6
+394,"('Magnesium', 'PTT')",6
+395,"('TroponinI', 'PTT', 'Fibrinogen')",6
+396,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Glucose', 'Hct', 'Hgb', 'WBC', 'Platelets')",6
+397,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI', 'PTT')",6
+398,"('FiO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",6
+399,"('FiO2', 'pH', 'PaCO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total')",6
+400,"('FiO2', 'pH', 'PaCO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",6
+401,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",6
+402,"('FiO2', 'pH', 'PaCO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",6
+403,"('Magnesium', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",6
+404,"('Glucose', 'Potassium', 'PTT')",6
+405,"('Magnesium', 'Potassium', 'TroponinI', 'Hct', 'Hgb')",6
+406,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",6
+407,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'PTT', 'Fibrinogen')",6
+408,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",6
+409,"('FiO2', 'pH', 'SaO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Potassium')",6
+410,"('Glucose', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",6
+411,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Potassium', 'Bilirubin_total')",6
+412,"('Hgb', 'Platelets')",6
+413,"('FiO2', 'pH', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Potassium')",6
+414,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",6
+415,"('FiO2', 'Glucose', 'Hct', 'Hgb', 'WBC', 'Platelets')",6
+416,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",6
+417,"('FiO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",6
+418,"('BaseExcess', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",6
+419,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",6
+420,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI', 'Hct', 'Hgb')",6
+421,"('Glucose', 'Hct', 'Hgb', 'PTT')",6
+422,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'TroponinI')",6
+423,"('FiO2', 'pH', 'PaCO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb')",6
+424,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",6
+425,"('pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'TroponinI')",6
+426,"('Hgb', 'Fibrinogen')",6
+427,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",6
+428,"('Glucose', 'Phosphate', 'TroponinI')",6
+429,"('FiO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",6
+430,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",6
+431,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'Fibrinogen', 'Platelets')",6
+432,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",6
+433,"('Magnesium', 'Phosphate', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",6
+434,"('pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",6
+435,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'PTT')",6
+436,"('BaseExcess', 'HCO3', 'FiO2', 'pH', 'PaCO2', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb')",6
+437,"('FiO2', 'pH', 'PaCO2', 'Glucose', 'Lactate')",6
+438,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",6
+439,"('FiO2', 'pH', 'PaCO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",5
+440,"('pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",5
+441,"('FiO2', 'pH', 'PaCO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",5
+442,"('Creatinine', 'Magnesium', 'Potassium')",5
+443,"('pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",5
+444,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'PTT', 'Fibrinogen')",5
+445,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",5
+446,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",5
+447,"('FiO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",5
+448,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI')",5
+449,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",5
+450,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Glucose', 'Bilirubin_total', 'TroponinI')",5
+451,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",5
+452,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",5
+453,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",5
+454,"('pH', 'PaCO2', 'SaO2', 'Hct', 'Hgb', 'WBC', 'Platelets')",5
+455,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",5
+456,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Lactate', 'Magnesium', 'Potassium')",5
+457,"('HCO3', 'Chloride', 'Lactate', 'Potassium', 'Hct', 'Hgb')",5
+458,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",5
+459,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'PTT', 'Fibrinogen')",5
+460,"('BaseExcess', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'Hct')",5
+461,"('FiO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",5
+462,"('Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb')",5
+463,"('Magnesium', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",5
+464,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",5
+465,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",5
+466,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Fibrinogen')",5
+467,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Glucose', 'Lactate', 'Potassium', 'TroponinI')",5
+468,"('Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb')",5
+469,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",5
+470,"('Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",5
+471,"('pH', 'PaCO2', 'SaO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Potassium')",5
+472,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",5
+473,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",5
+474,"('HCO3', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb')",5
+475,"('pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",5
+476,"('pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",5
+477,"('pH', 'PaCO2', 'SaO2', 'Calcium')",5
+478,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",5
+479,"('FiO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",5
+480,"('Magnesium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",4
+481,"('Bilirubin_direct', 'Bilirubin_total', 'Hgb')",4
+482,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI', 'PTT')",4
+483,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",4
+484,"('FiO2', 'Calcium', 'Glucose', 'Lactate', 'Magnesium', 'Potassium')",4
+485,"('BaseExcess', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'Glucose', 'Lactate', 'Potassium', 'Hct')",4
+486,"('Potassium', 'TroponinI', 'Hct', 'Hgb')",4
+487,"('BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",4
+488,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",4
+489,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",4
+490,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",4
+491,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'PTT', 'Fibrinogen')",4
+492,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'Hgb')",4
+493,"('FiO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium')",4
+494,"('Glucose', 'Hct', 'Hgb', 'Platelets')",4
+495,"('pH', 'PaCO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium')",4
+496,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'Fibrinogen', 'Platelets')",4
+497,"('WBC',)",4
+498,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",4
+499,"('pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium')",4
+500,"('Magnesium', 'Potassium', 'Hgb')",4
+501,"('Hct', 'Hgb', 'PTT', 'Fibrinogen', 'Platelets')",4
+502,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",4
+503,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'Platelets')",4
+504,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",4
+505,"('FiO2', 'Calcium')",4
+506,"('FiO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium')",4
+507,"('FiO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'TroponinI')",4
+508,"('FiO2', 'pH', 'PaCO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",4
+509,"('TroponinI', 'PTT', 'Fibrinogen', 'Platelets')",4
+510,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",4
+511,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Lactate', 'Potassium', 'PTT', 'Fibrinogen', 'Platelets')",4
+512,"('FiO2', 'Glucose', 'Magnesium', 'Phosphate')",4
+513,"('Glucose', 'Potassium', 'Hgb')",4
+514,"('FiO2', 'pH', 'PaCO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",4
+515,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",4
+516,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total')",4
+517,"('BaseExcess', 'HCO3', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb')",4
+518,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb')",4
+519,"('Magnesium', 'TroponinI', 'Hct', 'Hgb')",4
+520,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'TroponinI', 'Hct', 'Hgb')",4
+521,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Hct', 'Hgb', 'PTT', 'Platelets')",4
+522,"('Creatinine', 'Glucose')",4
+523,"('FiO2', 'pH', 'PaCO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Potassium')",4
+524,"('FiO2', 'Glucose', 'Magnesium')",4
+525,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",4
+526,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Hct', 'Hgb')",4
+527,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Glucose', 'Lactate', 'Potassium', 'PTT')",4
+528,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Magnesium', 'Potassium', 'Bilirubin_total')",4
+529,"('Calcium', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",4
+530,"('Hct', 'Hgb', 'WBC')",4
+531,"('pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",4
+532,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",4
+533,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",4
+534,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",4
+535,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Platelets')",4
+536,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Chloride', 'Glucose', 'Potassium')",4
+537,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",4
+538,"('Calcium', 'Glucose', 'Potassium')",4
+539,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Lactate', 'Potassium', 'PTT', 'Fibrinogen')",4
+540,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",4
+541,"('pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Magnesium', 'Potassium')",4
+542,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total')",4
+543,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",4
+544,"('Calcium', 'Magnesium', 'Phosphate')",4
+545,"('Calcium', 'Magnesium')",4
+546,"('Calcium', 'Potassium')",3
+547,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'Fibrinogen')",3
+548,"('FiO2', 'pH', 'PaCO2', 'Glucose', 'Lactate', 'Potassium')",3
+549,"('FiO2', 'Calcium', 'Glucose', 'Potassium')",3
+550,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'TroponinI', 'Hgb')",3
+551,"('Glucose', 'Hgb', 'Fibrinogen')",3
+552,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI')",3
+553,"('BaseExcess', 'HCO3', 'pH', 'PaCO2', 'SaO2', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",3
+554,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Bilirubin_total', 'PTT')",3
+555,"('Glucose', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",3
+556,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Phosphate', 'Bilirubin_total')",3
+557,"('Glucose', 'Hgb', 'PTT', 'Fibrinogen', 'Platelets')",3
+558,"('Hgb', 'PTT', 'Fibrinogen', 'Platelets')",3
+559,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",3
+560,"('Phosphate', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",3
+561,"('FiO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'TroponinI')",3
+562,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'PTT', 'Fibrinogen')",3
+563,"('PTT', 'Platelets')",3
+564,"('FiO2', 'pH', 'PaCO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",3
+565,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",3
+566,"('BaseExcess', 'HCO3', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",3
+567,"('pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",3
+568,"('BUN', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",3
+569,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Lactate', 'Potassium', 'TroponinI')",3
+570,"('Magnesium', 'Phosphate', 'Hct', 'Hgb')",3
+571,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",3
+572,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",3
+573,"('FiO2', 'pH', 'PaCO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",3
+574,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'TroponinI')",3
+575,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Lactate', 'Potassium', 'PTT')",3
+576,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'TroponinI')",3
+577,"('TroponinI', 'Hct', 'Hgb', 'Fibrinogen')",3
+578,"('FiO2', 'pH', 'PaCO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",3
+579,"('TroponinI', 'Fibrinogen')",3
+580,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'PTT', 'Fibrinogen', 'Platelets')",3
+581,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Fibrinogen')",3
+582,"('FiO2', 'Calcium', 'Glucose')",3
+583,"('FiO2', 'pH', 'PaCO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",3
+584,"('Magnesium', 'Phosphate', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",3
+585,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",3
+586,"('FiO2', 'AST', 'Alkalinephos', 'Bilirubin_direct', 'Bilirubin_total')",3
+587,"('TroponinI', 'Hgb', 'PTT', 'Fibrinogen', 'Platelets')",3
+588,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total')",3
+589,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'TroponinI')",3
+590,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",3
+591,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",3
+592,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",3
+593,"('FiO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb')",3
+594,"('pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",3
+595,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",3
+596,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",3
+597,"('Magnesium', 'Phosphate', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",3
+598,"('FiO2', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",3
+599,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",3
+600,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",3
+601,"('Bilirubin_direct', 'Hct', 'Hgb', 'WBC', 'Platelets')",3
+602,"('BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",3
+603,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",3
+604,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total')",3
+605,"('FiO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",3
+606,"('FiO2', 'PTT', 'Fibrinogen')",3
+607,"('Hgb', 'PTT', 'Fibrinogen')",3
+608,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",3
+609,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Magnesium', 'Phosphate', 'Bilirubin_total')",3
+610,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI', 'Hgb')",3
+611,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",3
+612,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",3
+613,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",3
+614,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Platelets')",3
+615,"('Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",3
+616,"('FiO2', 'pH', 'PaCO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",3
+617,"('BaseExcess', 'HCO3', 'pH', 'PaCO2', 'SaO2', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'Platelets')",3
+618,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Hgb')",3
+619,"('pH', 'PaCO2', 'SaO2', 'Glucose', 'Lactate', 'Potassium', 'TroponinI')",3
+620,"('FiO2', 'pH', 'PaCO2', 'Lactate')",3
+621,"('pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",3
+622,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",3
+623,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",3
+624,"('FiO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",3
+625,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",3
+626,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'TroponinI', 'PTT')",3
+627,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",3
+628,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",3
+629,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Phosphate', 'Potassium')",3
+630,"('Bilirubin_direct', 'Glucose', 'Bilirubin_total')",3
+631,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",3
+632,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",3
+633,"('FiO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",3
+634,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",3
+635,"('FiO2', 'pH', 'PaCO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'PTT')",3
+636,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",3
+637,"('BaseExcess', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'Lactate', 'Potassium', 'Hct', 'PTT', 'Fibrinogen')",3
+638,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",3
+639,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",3
+640,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Potassium')",3
+641,"('FiO2', 'pH', 'PaCO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",3
+642,"('FiO2', 'pH', 'PaCO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",3
+643,"('TroponinI', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",3
+644,"('Potassium', 'TroponinI', 'PTT')",3
+645,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",3
+646,"('Hgb', 'PTT')",3
+647,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",3
+648,"('FiO2', 'pH', 'PaCO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'PTT', 'Fibrinogen')",2
+649,"('Calcium', 'Magnesium', 'Phosphate', 'Potassium')",2
+650,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",2
+651,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",2
+652,"('BaseExcess', 'HCO3', 'pH', 'PaCO2', 'SaO2', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",2
+653,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+654,"('Calcium', 'Glucose', 'Phosphate')",2
+655,"('Creatinine', 'Potassium')",2
+656,"('pH', 'PaCO2', 'SaO2', 'Magnesium', 'Potassium')",2
+657,"('pH', 'PaCO2', 'SaO2', 'Calcium', 'Lactate', 'Magnesium', 'Potassium')",2
+658,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",2
+659,"('Glucose', 'Phosphate', 'Potassium', 'Hct', 'Hgb')",2
+660,"('pH', 'PaCO2', 'SaO2', 'Glucose', 'TroponinI')",2
+661,"('FiO2', 'pH', 'SaO2', 'Calcium', 'Lactate', 'Potassium')",2
+662,"('BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+663,"('BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+664,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'PTT', 'Fibrinogen', 'Platelets')",2
+665,"('pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",2
+666,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Phosphate', 'Potassium', 'PTT', 'Fibrinogen', 'Platelets')",2
+667,"('FiO2', 'pH', 'PaCO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Fibrinogen')",2
+668,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Glucose', 'Magnesium', 'Potassium')",2
+669,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Magnesium', 'Phosphate', 'TroponinI')",2
+670,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total')",2
+671,"('FiO2', 'pH', 'PaCO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",2
+672,"('FiO2', 'pH', 'PaCO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+673,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",2
+674,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+675,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+676,"('Bilirubin_direct', 'Glucose', 'Bilirubin_total', 'TroponinI')",2
+677,"('FiO2', 'Glucose', 'Potassium', 'TroponinI')",2
+678,"('FiO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Phosphate', 'Potassium')",2
+679,"('pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+680,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'PTT', 'Fibrinogen', 'Platelets')",2
+681,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Magnesium', 'Phosphate', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+682,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'TroponinI', 'Platelets')",2
+683,"('FiO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'TroponinI')",2
+684,"('FiO2', 'pH', 'PaCO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+685,"('Bilirubin_direct', 'Bilirubin_total', 'Fibrinogen')",2
+686,"('Glucose', 'Magnesium', 'Hct', 'Hgb')",2
+687,"('Calcium', 'Magnesium', 'Potassium')",2
+688,"('pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+689,"('pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'PTT')",2
+690,"('HCO3', 'PaCO2', 'Chloride', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT')",2
+691,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT')",2
+692,"('Potassium', 'Hct')",2
+693,"('FiO2', 'pH', 'SaO2', 'Glucose')",2
+694,"('Creatinine', 'Glucose', 'Potassium')",2
+695,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Glucose', 'Magnesium')",2
+696,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",2
+697,"('FiO2', 'Glucose', 'PTT')",2
+698,"('BaseExcess', 'HCO3', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+699,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'TroponinI', 'PTT')",2
+700,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Lactate', 'Phosphate', 'Potassium')",2
+701,"('Calcium', 'Magnesium', 'Phosphate', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+702,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Glucose', 'Bilirubin_total', 'Hgb')",2
+703,"('pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose')",2
+704,"('pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+705,"('FiO2', 'pH', 'PaCO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",2
+706,"('BaseExcess', 'HCO3', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",2
+707,"('BUN', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Potassium', 'Bilirubin_total')",2
+708,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Phosphate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",2
+709,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'TroponinI')",2
+710,"('Bilirubin_direct', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+711,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hgb')",2
+712,"('BaseExcess', 'HCO3', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'TroponinI', 'Hct', 'Hgb')",2
+713,"('FiO2', 'pH', 'PaCO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+714,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",2
+715,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",2
+716,"('FiO2', 'Chloride', 'Glucose', 'Lactate', 'Potassium')",2
+717,"('FiO2', 'pH', 'PaCO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",2
+718,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+719,"('BaseExcess', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",2
+720,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",2
+721,"('FiO2', 'pH', 'PaCO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'TroponinI')",2
+722,"('pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",2
+723,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+724,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Glucose', 'Bilirubin_total', 'PTT')",2
+725,"('Potassium', 'PTT', 'Fibrinogen')",2
+726,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Bilirubin_total', 'Hgb')",2
+727,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+728,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'TroponinI', 'WBC')",2
+729,"('Glucose', 'TroponinI', 'PTT', 'Fibrinogen', 'Platelets')",2
+730,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'PTT')",2
+731,"('FiO2', 'pH', 'PaCO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate')",2
+732,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",2
+733,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium')",2
+734,"('Bilirubin_direct', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",2
+735,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'PTT')",2
+736,"('FiO2', 'Calcium', 'Lactate', 'Potassium')",2
+737,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+738,"('FiO2', 'Lactate', 'Potassium', 'TroponinI')",2
+739,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",2
+740,"('Magnesium', 'Potassium', 'Hct', 'Hgb', 'PTT')",2
+741,"('HCO3', 'PaCO2', 'SaO2', 'Chloride', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",2
+742,"('FiO2', 'Calcium', 'Glucose', 'Lactate')",2
+743,"('BaseExcess', 'HCO3', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+744,"('Lactate', 'Potassium', 'TroponinI')",2
+745,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",2
+746,"('BUN', 'Calcium', 'Creatinine', 'Magnesium', 'Phosphate', 'Potassium')",2
+747,"('pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+748,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'TroponinI')",2
+749,"('HCO3', 'pH', 'PaCO2', 'SaO2', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'Fibrinogen', 'Platelets')",2
+750,"('pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",2
+751,"('BaseExcess', 'HCO3', 'pH', 'PaCO2', 'SaO2', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'Fibrinogen')",2
+752,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+753,"('pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",2
+754,"('Magnesium', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",2
+755,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",2
+756,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+757,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'TroponinI')",2
+758,"('BUN', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+759,"('pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",2
+760,"('FiO2', 'pH', 'PaCO2', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'PTT', 'Fibrinogen')",2
+761,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Bilirubin_total', 'PTT', 'Fibrinogen')",2
+762,"('Magnesium', 'Potassium', 'TroponinI', 'Hgb')",2
+763,"('pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+764,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",2
+765,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'PTT', 'Fibrinogen', 'Platelets')",2
+766,"('FiO2', 'Calcium', 'Potassium')",2
+767,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI')",2
+768,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",2
+769,"('pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+770,"('BUN', 'Creatinine', 'Magnesium', 'Potassium')",2
+771,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Platelets')",2
+772,"('FiO2', 'pH', 'PaCO2', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+773,"('FiO2', 'pH', 'PaCO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb')",2
+774,"('Potassium', 'Hct', 'Hgb', 'PTT', 'Fibrinogen', 'Platelets')",2
+775,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Glucose', 'Bilirubin_total', 'Fibrinogen')",2
+776,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI')",2
+777,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Phosphate', 'Potassium', 'Platelets')",2
+778,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Glucose', 'Lactate', 'Potassium', 'Fibrinogen')",2
+779,"('Magnesium', 'Potassium', 'PTT', 'Fibrinogen')",2
+780,"('Phosphate', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",2
+781,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",2
+782,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",2
+783,"('Magnesium', 'Hgb')",2
+784,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Lactate', 'Potassium', 'Hct', 'Hgb')",2
+785,"('pH', 'SaO2')",2
+786,"('BaseExcess', 'HCO3', 'pH', 'PaCO2', 'SaO2', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'Fibrinogen')",2
+787,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",2
+788,"('FiO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",2
+789,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hgb')",2
+790,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Glucose', 'Lactate', 'Magnesium', 'Potassium')",2
+791,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Phosphate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",2
+792,"('FiO2', 'Hct', 'Hgb')",2
+793,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+794,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Lactate', 'Potassium', 'Hct', 'Hgb')",2
+795,"('Magnesium', 'Phosphate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+796,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",2
+797,"('Calcium', 'Glucose', 'Lactate')",2
+798,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+799,"('pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",2
+800,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hgb')",2
+801,"('FiO2', 'pH', 'PaCO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb')",2
+802,"('Glucose', 'Magnesium', 'Phosphate', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",2
+803,"('pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium')",2
+804,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Glucose', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",2
+805,"('pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",2
+806,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Phosphate', 'Potassium', 'Bilirubin_total')",2
+807,"('pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI')",2
+808,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",2
+809,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI')",2
+810,"('BUN',)",2
+811,"('pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",2
+812,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",2
+813,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+814,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total')",2
+815,"('Glucose', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",2
+816,"('Magnesium', 'Phosphate', 'TroponinI', 'Hct', 'Hgb')",2
+817,"('pH', 'PaCO2', 'SaO2', 'Lactate', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+818,"('FiO2', 'pH', 'PaCO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",2
+819,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Hct', 'Hgb', 'PTT')",2
+820,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+821,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+822,"('FiO2', 'pH', 'PaCO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb')",2
+823,"('Glucose', 'Magnesium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+824,"('FiO2', 'Magnesium')",2
+825,"('FiO2', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+826,"('Glucose', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",2
+827,"('Magnesium', 'Phosphate', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",2
+828,"('FiO2', 'pH', 'PaCO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",2
+829,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total')",2
+830,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'WBC')",2
+831,"('AST', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium')",2
+832,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",2
+833,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",2
+834,"('Glucose', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+835,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",2
+836,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total')",2
+837,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI', 'PTT')",2
+838,"('FiO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI')",2
+839,"('FiO2', 'pH', 'PaCO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+840,"('FiO2', 'Glucose', 'Lactate', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+841,"('FiO2', 'Phosphate', 'Potassium')",2
+842,"('FiO2', 'pH', 'PaCO2', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",2
+843,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Potassium', 'TroponinI')",2
+844,"('Glucose', 'Magnesium', 'Phosphate', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",2
+845,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total')",2
+846,"('BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total')",2
+847,"('Phosphate', 'Hct', 'Hgb')",2
+848,"('Glucose', 'Potassium', 'Hct', 'Hgb', 'PTT', 'Fibrinogen', 'Platelets')",2
+849,"('FiO2', 'Glucose', 'PTT', 'Fibrinogen')",2
+850,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Magnesium', 'Potassium')",2
+851,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+852,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+853,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'TroponinI', 'Hgb')",2
+854,"('Magnesium', 'Phosphate', 'TroponinI', 'PTT')",2
+855,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'Fibrinogen', 'Platelets')",2
+856,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",2
+857,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Glucose', 'Lactate', 'TroponinI')",2
+858,"('Glucose', 'PTT', 'Platelets')",2
+859,"('FiO2', 'pH', 'PaCO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+860,"('Glucose', 'Magnesium', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+861,"('BUN', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+862,"('BaseExcess', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'Lactate', 'Potassium', 'Hct', 'Fibrinogen')",2
+863,"('FiO2', 'Magnesium', 'Potassium', 'TroponinI')",2
+864,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'TroponinI')",2
+865,"('FiO2', 'pH', 'PaCO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+866,"('FiO2', 'pH', 'PaCO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Magnesium', 'Potassium')",2
+867,"('Glucose', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",2
+868,"('FiO2', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium')",2
+869,"('Magnesium', 'Phosphate', 'Potassium', 'Hgb')",2
+870,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'Fibrinogen', 'Platelets')",2
+871,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Magnesium', 'Bilirubin_total')",2
+872,"('Phosphate', 'PTT')",2
+873,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Glucose', 'Lactate', 'Phosphate')",2
+874,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",2
+875,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",2
+876,"('Glucose', 'Magnesium', 'PTT')",2
+877,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Hct', 'Hgb', 'Fibrinogen')",2
+878,"('pH', 'PaCO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",2
+879,"('FiO2', 'pH', 'PaCO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+880,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'PTT')",1
+881,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Glucose', 'Magnesium', 'TroponinI')",1
+882,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+883,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+884,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Alkalinephos', 'Calcium', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total')",1
+885,"('Glucose', 'Phosphate', 'PTT')",1
+886,"('Glucose', 'Magnesium', 'Potassium', 'PTT', 'Fibrinogen', 'Platelets')",1
+887,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'TroponinI', 'PTT', 'Fibrinogen')",1
+888,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Magnesium')",1
+889,"('pH', 'PaCO2', 'SaO2', 'Calcium', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+890,"('Magnesium', 'Potassium', 'Hct')",1
+891,"('BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+892,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Potassium', 'Bilirubin_total', 'Hgb', 'PTT', 'Fibrinogen')",1
+893,"('FiO2', 'pH', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+894,"('pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+895,"('FiO2', 'Calcium', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+896,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+897,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'Fibrinogen')",1
+898,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+899,"('HCO3', 'PaCO2', 'SaO2', 'Chloride', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'Fibrinogen', 'Platelets')",1
+900,"('Bilirubin_direct', 'Bilirubin_total', 'PTT')",1
+901,"('Bilirubin_direct', 'Magnesium', 'Bilirubin_total')",1
+902,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Glucose', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC')",1
+903,"('AST', 'BUN', 'Alkalinephos', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+904,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Platelets')",1
+905,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+906,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+907,"('Magnesium', 'Platelets')",1
+908,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI', 'Hgb', 'PTT', 'Fibrinogen')",1
+909,"('FiO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb')",1
+910,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+911,"('BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+912,"('BaseExcess', 'HCO3', 'pH', 'PaCO2', 'SaO2', 'Chloride', 'Lactate', 'Potassium', 'Hct', 'Hgb')",1
+913,"('Glucose', 'TroponinI', 'PTT', 'Fibrinogen')",1
+914,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+915,"('pH', 'PaCO2', 'Lactate')",1
+916,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI', 'PTT', 'Fibrinogen')",1
+917,"('pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+918,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+919,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Phosphate', 'Potassium', 'TroponinI', 'Hct', 'Hgb')",1
+920,"('BaseExcess', 'HCO3', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'Fibrinogen', 'Platelets')",1
+921,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Phosphate', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+922,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI')",1
+923,"('FiO2', 'Glucose', 'Magnesium', 'Potassium', 'TroponinI')",1
+924,"('FiO2', 'pH', 'Glucose')",1
+925,"('FiO2', 'pH', 'PaCO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+926,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC')",1
+927,"('pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+928,"('BUN', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium')",1
+929,"('Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+930,"('FiO2', 'pH', 'PaCO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+931,"('FiO2', 'pH', 'PaCO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'PTT', 'Fibrinogen')",1
+932,"('Glucose', 'Magnesium', 'PTT', 'Fibrinogen')",1
+933,"('FiO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium')",1
+934,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb')",1
+935,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total')",1
+936,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Phosphate', 'Potassium', 'TroponinI')",1
+937,"('FiO2', 'pH', 'PaCO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Phosphate', 'Potassium', 'Hct', 'Hgb')",1
+938,"('FiO2', 'pH', 'PaCO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+939,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI', 'PTT')",1
+940,"('FiO2', 'pH', 'PaCO2', 'Calcium', 'Glucose')",1
+941,"('BUN', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+942,"('FiO2', 'pH', 'PaCO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+943,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+944,"('pH', 'PaCO2', 'SaO2', 'Calcium', 'Lactate', 'PTT', 'Fibrinogen')",1
+945,"('Creatinine', 'Magnesium', 'Phosphate', 'Potassium')",1
+946,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+947,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Bilirubin_total', 'Fibrinogen')",1
+948,"('FiO2', 'pH', 'PaCO2', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb')",1
+949,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Phosphate', 'Potassium', 'Bilirubin_total', 'PTT', 'Fibrinogen')",1
+950,"('FiO2', 'pH', 'PaCO2', 'Calcium', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+951,"('FiO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+952,"('FiO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'PTT')",1
+953,"('Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'PTT')",1
+954,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC')",1
+955,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total')",1
+956,"('FiO2', 'Glucose', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+957,"('FiO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'PTT', 'Fibrinogen')",1
+958,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+959,"('BaseExcess', 'FiO2', 'pH', 'PaCO2', 'Lactate', 'Potassium', 'Hct')",1
+960,"('pH', 'PaCO2', 'SaO2', 'Glucose', 'Potassium', 'TroponinI')",1
+961,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'WBC')",1
+962,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+963,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Glucose', 'Lactate', 'PTT', 'Fibrinogen')",1
+964,"('BUN', 'Creatinine', 'Glucose')",1
+965,"('pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+966,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+967,"('Bilirubin_direct', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'Fibrinogen')",1
+968,"('pH', 'PaCO2', 'SaO2', 'Lactate', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+969,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+970,"('BUN', 'Glucose')",1
+971,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'PTT', 'Fibrinogen')",1
+972,"('Creatinine', 'Glucose', 'Magnesium', 'Potassium')",1
+973,"('Lactate', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+974,"('Calcium', 'Phosphate', 'Potassium')",1
+975,"('pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'PTT')",1
+976,"('pH', 'PaCO2', 'SaO2', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+977,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+978,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'PTT')",1
+979,"('HCO3', 'PaCO2', 'SaO2', 'Glucose', 'Potassium', 'Hct', 'Hgb')",1
+980,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Chloride', 'Glucose', 'Potassium')",1
+981,"('Glucose', 'Magnesium', 'Potassium', 'Fibrinogen')",1
+982,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+983,"('Glucose', 'Magnesium', 'Phosphate', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+984,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'WBC')",1
+985,"('BUN', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+986,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'PTT', 'Fibrinogen', 'Platelets')",1
+987,"('Phosphate', 'Potassium', 'TroponinI')",1
+988,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI', 'PTT')",1
+989,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'TroponinI')",1
+990,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Glucose', 'Lactate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+991,"('pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+992,"('BaseExcess', 'HCO3', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+993,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb')",1
+994,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hgb', 'Platelets')",1
+995,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+996,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hgb')",1
+997,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Lactate', 'Magnesium', 'Phosphate')",1
+998,"('Glucose', 'Hct', 'Hgb', 'Fibrinogen')",1
+999,"('Magnesium', 'Potassium', 'TroponinI', 'PTT')",1
+1000,"('BUN', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1001,"('FiO2', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1002,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Fibrinogen')",1
+1003,"('Magnesium', 'Phosphate', 'Potassium', 'TroponinI', 'Hct', 'Hgb')",1
+1004,"('BaseExcess', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1005,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+1006,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Hct', 'Hgb')",1
+1007,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Phosphate', 'Potassium', 'Hgb', 'Platelets')",1
+1008,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Hgb', 'Platelets')",1
+1009,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Glucose', 'Bilirubin_total', 'Hct', 'Hgb')",1
+1010,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb')",1
+1011,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1012,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Lactate', 'PTT', 'Fibrinogen', 'Platelets')",1
+1013,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Potassium', 'TroponinI')",1
+1014,"('Glucose', 'Potassium', 'TroponinI', 'Hct', 'Hgb')",1
+1015,"('BaseExcess', 'HCO3', 'pH', 'PaCO2', 'SaO2', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT')",1
+1016,"('FiO2', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1017,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Glucose', 'Lactate', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1018,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'TroponinI')",1
+1019,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Lactate', 'Potassium', 'Hct')",1
+1020,"('BaseExcess', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'Creatinine', 'Lactate', 'Potassium', 'Hct')",1
+1021,"('FiO2', 'Bilirubin_direct', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1022,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT')",1
+1023,"('pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI')",1
+1024,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI')",1
+1025,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1026,"('Glucose', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1027,"('BUN', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1028,"('Bilirubin_direct', 'Hgb')",1
+1029,"('FiO2', 'Glucose', 'Fibrinogen')",1
+1030,"('Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+1031,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1032,"('Magnesium', 'Potassium', 'TroponinI', 'WBC')",1
+1033,"('pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1034,"('Glucose', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1035,"('pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1036,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total')",1
+1037,"('Magnesium', 'Potassium', 'Hgb', 'PTT')",1
+1038,"('Glucose', 'Potassium', 'Hgb', 'PTT')",1
+1039,"('Glucose', 'Potassium', 'Hct', 'Hgb', 'PTT')",1
+1040,"('Glucose', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'PTT', 'Fibrinogen')",1
+1041,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Lactate', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1042,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1043,"('pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium')",1
+1044,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Glucose', 'Hgb')",1
+1045,"('Potassium', 'Hct', 'Hgb', 'PTT')",1
+1046,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'TroponinI')",1
+1047,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'Fibrinogen', 'Platelets')",1
+1048,"('Calcium', 'Magnesium', 'Potassium', 'Hct', 'Hgb')",1
+1049,"('BaseExcess', 'HCO3', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1050,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+1051,"('Glucose', 'Magnesium', 'Phosphate', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1052,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Potassium', 'Bilirubin_total', 'TroponinI', 'PTT')",1
+1053,"('pH', 'PaCO2', 'SaO2', 'Glucose', 'PTT', 'Fibrinogen')",1
+1054,"('pH', 'PaCO2', 'SaO2', 'Calcium', 'Lactate', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1055,"('Glucose', 'Magnesium', 'Potassium', 'Hct')",1
+1056,"('Bilirubin_direct', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1057,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Phosphate', 'Potassium', 'TroponinI', 'WBC')",1
+1058,"('Bilirubin_direct', 'Glucose', 'Bilirubin_total', 'Hct', 'Hgb')",1
+1059,"('Creatinine', 'Potassium', 'Hct', 'Hgb')",1
+1060,"('Bilirubin_direct', 'Bilirubin_total', 'PTT', 'Fibrinogen', 'Platelets')",1
+1061,"('HCO3', 'PaCO2', 'SaO2', 'Chloride', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT')",1
+1062,"('FiO2', 'Glucose', 'Hct', 'Hgb')",1
+1063,"('BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium')",1
+1064,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium')",1
+1065,"('BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1066,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Bilirubin_total', 'Hct', 'Hgb')",1
+1067,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'Fibrinogen', 'Platelets')",1
+1068,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'PTT', 'Fibrinogen', 'Platelets')",1
+1069,"('pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1070,"('pH', 'PaCO2', 'SaO2', 'TroponinI')",1
+1071,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Lactate', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1072,"('Alkalinephos',)",1
+1073,"('FiO2', 'Glucose', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+1074,"('FiO2', 'pH', 'PaCO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1075,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Bilirubin_total')",1
+1076,"('pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI')",1
+1077,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1078,"('FiO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'PTT', 'Fibrinogen')",1
+1079,"('TroponinI', 'Hct', 'Hgb', 'PTT')",1
+1080,"('FiO2', 'pH', 'PaCO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+1081,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium')",1
+1082,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1083,"('FiO2', 'pH', 'PaCO2', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1084,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1085,"('FiO2', 'SaO2', 'Lactate', 'Potassium', 'Hct')",1
+1086,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1087,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1088,"('pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'Hgb')",1
+1089,"('pH', 'PaCO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1090,"('FiO2', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'PTT')",1
+1091,"('Phosphate', 'Hgb')",1
+1092,"('Calcium', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1093,"('Calcium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1094,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Hct', 'Hgb', 'PTT', 'Platelets')",1
+1095,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Hct', 'Hgb', 'WBC')",1
+1096,"('AST', 'Bilirubin_total')",1
+1097,"('BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1098,"('FiO2', 'pH', 'PaCO2', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1099,"('pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'PTT', 'Fibrinogen', 'Platelets')",1
+1100,"('Glucose', 'Magnesium', 'TroponinI', 'Hct', 'Hgb')",1
+1101,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Hct', 'Hgb', 'PTT', 'Fibrinogen', 'Platelets')",1
+1102,"('FiO2', 'pH', 'SaO2', 'Glucose', 'Lactate', 'Potassium')",1
+1103,"('BaseExcess', 'HCO3', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1104,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+1105,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+1106,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Potassium', 'Bilirubin_total', 'Fibrinogen')",1
+1107,"('pH', 'PaCO2', 'SaO2', 'Calcium', 'Lactate', 'Potassium', 'PTT')",1
+1108,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'PTT')",1
+1109,"('HCO3', 'PaCO2', 'SaO2', 'Potassium', 'Hct', 'Hgb', 'PTT', 'Fibrinogen', 'Platelets')",1
+1110,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Hct', 'Hgb')",1
+1111,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Glucose', 'TroponinI', 'Hct', 'Hgb')",1
+1112,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+1113,"('pH', 'PaCO2', 'SaO2', 'Magnesium', 'Phosphate', 'Potassium')",1
+1114,"('Calcium', 'Glucose', 'Magnesium', 'Potassium')",1
+1115,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hgb', 'Fibrinogen')",1
+1116,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Hgb')",1
+1117,"('Calcium', 'Lactate', 'Potassium')",1
+1118,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Magnesium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1119,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate')",1
+1120,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1121,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Glucose', 'Lactate', 'Potassium', 'Platelets')",1
+1122,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1123,"('FiO2', 'pH', 'PaCO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1124,"('Calcium', 'Phosphate')",1
+1125,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Hct', 'Hgb', 'PTT', 'Fibrinogen', 'Platelets')",1
+1126,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+1127,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1128,"('Glucose', 'Magnesium', 'Phosphate', 'Hct', 'Hgb')",1
+1129,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Glucose', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1130,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1131,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1132,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+1133,"('BaseExcess', 'HCO3', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1134,"('FiO2', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'TroponinI')",1
+1135,"('FiO2', 'pH', 'PaCO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1136,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'Fibrinogen', 'Platelets')",1
+1137,"('FiO2', 'pH', 'PaCO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1138,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'PTT', 'Fibrinogen', 'Platelets')",1
+1139,"('BaseExcess', 'HCO3', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'Chloride', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Hct', 'Hgb')",1
+1140,"('Magnesium', 'Phosphate', 'TroponinI', 'Hct', 'Hgb', 'Fibrinogen')",1
+1141,"('pH', 'PaCO2', 'SaO2', 'Glucose', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1142,"('Phosphate', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+1143,"('Creatinine', 'Magnesium', 'Phosphate')",1
+1144,"('FiO2', 'pH', 'PaCO2', 'Magnesium', 'PTT', 'Fibrinogen', 'Platelets')",1
+1145,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'Platelets')",1
+1146,"('Glucose', 'Hct')",1
+1147,"('FiO2', 'Glucose', 'Lactate', 'Magnesium', 'Potassium')",1
+1148,"('Glucose', 'Magnesium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1149,"('FiO2', 'Glucose', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1150,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'Fibrinogen', 'Platelets')",1
+1151,"('FiO2', 'pH', 'PaCO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1152,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1153,"('FiO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1154,"('FiO2', 'Hct', 'Hgb', 'PTT')",1
+1155,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1156,"('pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1157,"('FiO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Platelets')",1
+1158,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'PTT', 'Fibrinogen')",1
+1159,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Lactate', 'Hct', 'Hgb')",1
+1160,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Chloride', 'Lactate', 'Potassium')",1
+1161,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT')",1
+1162,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'Fibrinogen')",1
+1163,"('FiO2', 'pH', 'SaO2', 'Lactate', 'Potassium')",1
+1164,"('FiO2', 'pH', 'Calcium', 'Glucose', 'Lactate', 'Potassium')",1
+1165,"('FiO2', 'pH', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1166,"('FiO2', 'pH')",1
+1167,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total')",1
+1168,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1169,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Magnesium', 'Bilirubin_total', 'TroponinI')",1
+1170,"('FiO2', 'Glucose', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1171,"('Magnesium', 'Phosphate', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1172,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1173,"('Phosphate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1174,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1175,"('FiO2', 'pH', 'PaCO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1176,"('BUN', 'Calcium', 'Creatinine', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1177,"('Phosphate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'Fibrinogen')",1
+1178,"('Creatinine', 'Glucose', 'Potassium', 'Hct', 'Hgb', 'PTT', 'Fibrinogen')",1
+1179,"('FiO2', 'pH', 'PaCO2', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'Fibrinogen', 'Platelets')",1
+1180,"('FiO2', 'pH', 'PaCO2', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Potassium')",1
+1181,"('Bilirubin_direct', 'Magnesium', 'Phosphate', 'PTT')",1
+1182,"('FiO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+1183,"('pH', 'PaCO2', 'SaO2', 'Hgb')",1
+1184,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Fibrinogen')",1
+1185,"('BaseExcess', 'HCO3', 'pH', 'PaCO2', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb')",1
+1186,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1187,"('Calcium', 'Lactate', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1188,"('FiO2', 'pH', 'PaCO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Phosphate', 'Potassium', 'TroponinI')",1
+1189,"('BaseExcess', 'HCO3', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+1190,"('Magnesium', 'Phosphate', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1191,"('pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'PTT', 'Platelets')",1
+1192,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'PTT', 'Fibrinogen')",1
+1193,"('FiO2', 'pH', 'Glucose', 'Lactate', 'Potassium')",1
+1194,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT')",1
+1195,"('pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1196,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Glucose', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+1197,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'PTT', 'Fibrinogen')",1
+1198,"('FiO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'Fibrinogen', 'Platelets')",1
+1199,"('FiO2', 'Fibrinogen')",1
+1200,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+1201,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Potassium', 'Hct', 'Hgb')",1
+1202,"('Glucose', 'Magnesium', 'Phosphate', 'PTT', 'Fibrinogen')",1
+1203,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1204,"('Phosphate', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1205,"('BaseExcess', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1206,"('pH', 'PaCO2', 'SaO2', 'Glucose', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1207,"('FiO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Potassium')",1
+1208,"('pH', 'PaCO2', 'SaO2', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1209,"('FiO2', 'pH', 'PaCO2', 'Calcium', 'Chloride', 'Glucose', 'Potassium')",1
+1210,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'Fibrinogen')",1
+1211,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'PTT', 'Fibrinogen', 'Platelets')",1
+1212,"('BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1213,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1214,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1215,"('FiO2', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+1216,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Potassium', 'Bilirubin_total', 'PTT')",1
+1217,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'Fibrinogen')",1
+1218,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1219,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Glucose', 'Potassium', 'TroponinI')",1
+1220,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'TroponinI')",1
+1221,"('AST', 'Glucose')",1
+1222,"('FiO2', 'pH', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'TroponinI')",1
+1223,"('FiO2', 'Bilirubin_direct', 'Glucose', 'TroponinI')",1
+1224,"('FiO2', 'pH', 'PaCO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total')",1
+1225,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'TroponinI', 'PTT', 'Fibrinogen', 'Platelets')",1
+1226,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Phosphate', 'Potassium', 'TroponinI')",1
+1227,"('FiO2', 'Glucose', 'Lactate', 'Potassium', 'Hct')",1
+1228,"('BaseExcess', 'HCO3', 'PaCO2', 'SaO2', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb')",1
+1229,"('pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1230,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1231,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1232,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1233,"('Phosphate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1234,"('BUN', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1235,"('FiO2', 'pH', 'PaCO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI', 'PTT', 'Fibrinogen', 'Platelets')",1
+1236,"('pH', 'PaCO2', 'SaO2', 'Lactate', 'Magnesium')",1
+1237,"('AST', 'Alkalinephos', 'Creatinine', 'Bilirubin_direct', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1238,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Magnesium', 'Phosphate', 'Potassium')",1
+1239,"('Bilirubin_direct', 'Glucose', 'Hct', 'Hgb')",1
+1240,"('pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1241,"('Magnesium', 'Phosphate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+1242,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1243,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1244,"('BUN', 'TroponinI')",1
+1245,"('FiO2', 'Hct')",1
+1246,"('pH', 'SaO2', 'Calcium', 'Lactate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1247,"('pH', 'SaO2', 'TroponinI')",1
+1248,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1249,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1250,"('FiO2', 'Hgb')",1
+1251,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'WBC')",1
+1252,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1253,"('Magnesium', 'TroponinI', 'Platelets')",1
+1254,"('Magnesium', 'Hct', 'Hgb', 'PTT', 'Fibrinogen', 'Platelets')",1
+1255,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+1256,"('Magnesium', 'Phosphate', 'Potassium', 'TroponinI', 'Platelets')",1
+1257,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC')",1
+1258,"('Calcium', 'TroponinI')",1
+1259,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1260,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium')",1
+1261,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1262,"('Calcium', 'Glucose', 'Lactate', 'Magnesium', 'Potassium')",1
+1263,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb')",1
+1264,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1265,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI')",1
+1266,"('Magnesium', 'Phosphate', 'Fibrinogen')",1
+1267,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'PTT')",1
+1268,"('pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1269,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'PTT')",1
+1270,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1271,"('pH', 'PaCO2', 'SaO2', 'Glucose', 'Lactate', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1272,"('FiO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1273,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total')",1
+1274,"('Magnesium', 'Phosphate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1275,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1276,"('Magnesium', 'Phosphate', 'WBC')",1
+1277,"('Magnesium', 'Potassium', 'Platelets')",1
+1278,"('AST', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1279,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Glucose', 'Hct', 'Hgb')",1
+1280,"('FiO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1281,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1282,"('FiO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1283,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1284,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hgb')",1
+1285,"('AST', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1286,"('BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1287,"('FiO2', 'pH', 'PaCO2', 'Alkalinephos', 'Calcium', 'Chloride', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total')",1
+1288,"('BaseExcess', 'HCO3', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1289,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI', 'Hgb', 'WBC')",1
+1290,"('Calcium', 'Glucose', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1291,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'PTT', 'Fibrinogen')",1
+1292,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Magnesium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1293,"('pH', 'PaCO2', 'SaO2', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb')",1
+1294,"('FiO2', 'pH', 'PaCO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'Platelets')",1
+1295,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Glucose', 'Potassium', 'Bilirubin_total')",1
+1296,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'PTT', 'Platelets')",1
+1297,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total')",1
+1298,"('pH', 'PaCO2')",1
+1299,"('FiO2', 'pH', 'PaCO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1300,"('HCO3', 'PaCO2', 'Chloride', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1301,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'Alkalinephos', 'Bilirubin_direct', 'Bilirubin_total')",1
+1302,"('pH', 'PaCO2', 'SaO2', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1303,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1304,"('Bilirubin_direct', 'Hct', 'Hgb')",1
+1305,"('FiO2', 'pH', 'PaCO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI')",1
+1306,"('pH', 'PaCO2', 'SaO2', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1307,"('Bilirubin_direct', 'Bilirubin_total', 'TroponinI')",1
+1308,"('Magnesium', 'Potassium', 'Fibrinogen')",1
+1309,"('HCO3', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb')",1
+1310,"('FiO2', 'pH', 'PaCO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1311,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Glucose', 'Phosphate', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1312,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total')",1
+1313,"('FiO2', 'pH', 'PaCO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1314,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'TroponinI')",1
+1315,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1316,"('pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1317,"('Bilirubin_total',)",1
+1318,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1319,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC')",1
+1320,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Platelets')",1
+1321,"('FiO2', 'pH', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1322,"('BaseExcess', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'Hct')",1
+1323,"('pH', 'PaCO2', 'SaO2', 'Glucose', 'Lactate', 'TroponinI')",1
+1324,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'Alkalinephos', 'Calcium', 'Bilirubin_direct', 'Glucose', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1325,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'TroponinI', 'PTT')",1
+1326,"('FiO2', 'Magnesium', 'Phosphate', 'Potassium')",1
+1327,"('Calcium', 'Glucose', 'TroponinI')",1
+1328,"('FiO2', 'pH', 'PaCO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1329,"('FiO2', 'pH', 'PaCO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1330,"('pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1331,"('Glucose', 'Phosphate', 'PTT', 'Fibrinogen')",1
+1332,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1333,"('TroponinI', 'Platelets')",1
+1334,"('pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1335,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'PTT')",1
+1336,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI', 'Hct', 'Hgb')",1
+1337,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1338,"('Glucose', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1339,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1340,"('BUN', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Potassium')",1
+1341,"('BaseExcess', 'HCO3', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+1342,"('Calcium', 'Glucose', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1343,"('FiO2', 'pH', 'PaCO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1344,"('FiO2', 'Glucose', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1345,"('BaseExcess', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'Fibrinogen', 'Platelets')",1
+1346,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'PTT', 'Fibrinogen', 'Platelets')",1
+1347,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1348,"('BaseExcess', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'Lactate', 'Potassium', 'Hct', 'Platelets')",1
+1349,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'PTT', 'Fibrinogen', 'Platelets')",1
+1350,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1351,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Phosphate', 'Potassium', 'Bilirubin_total', 'PTT')",1
+1352,"('BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1353,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1354,"('BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'TroponinI')",1
+1355,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total')",1
+1356,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+1357,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'TroponinI')",1
+1358,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1359,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Hgb', 'PTT', 'Fibrinogen', 'Platelets')",1
+1360,"('Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1361,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1362,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Glucose', 'Phosphate', 'PTT', 'Platelets')",1
+1363,"('pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'TroponinI')",1
+1364,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1365,"('BUN', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total')",1
+1366,"('FiO2', 'Calcium', 'Chloride', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1367,"('FiO2', 'pH', 'PaCO2', 'Calcium', 'Glucose', 'Lactate')",1
+1368,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Phosphate', 'Potassium', 'TroponinI')",1
+1369,"('BaseExcess', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'Lactate', 'Potassium')",1
+1370,"('Creatinine', 'PTT')",1
+1371,"('Creatinine', 'Glucose', 'PTT')",1
+1372,"('Creatinine', 'Potassium', 'PTT')",1
+1373,"('Glucose', 'Phosphate', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+1374,"('Potassium', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+1375,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT')",1
+1376,"('Creatinine', 'Hct', 'Hgb')",1
+1377,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Lactate', 'Hct', 'Hgb', 'PTT')",1
+1378,"('Alkalinephos', 'Bilirubin_direct', 'Bilirubin_total')",1
+1379,"('AST', 'Alkalinephos', 'Calcium', 'Bilirubin_direct', 'Bilirubin_total')",1
+1380,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'Fibrinogen')",1
+1381,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1382,"('BaseExcess', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'Lactate', 'Potassium', 'Hct', 'PTT')",1
+1383,"('FiO2', 'pH', 'PaCO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Fibrinogen')",1
+1384,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1385,"('Glucose', 'Hct', 'Hgb', 'PTT', 'Fibrinogen')",1
+1386,"('FiO2', 'pH', 'PaCO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'Fibrinogen')",1
+1387,"('FiO2', 'pH', 'PaCO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total')",1
+1388,"('Alkalinephos', 'Glucose', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1389,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'PTT', 'Fibrinogen', 'Platelets')",1
+1390,"('Glucose', 'Magnesium', 'Potassium', 'PTT', 'Fibrinogen')",1
+1391,"('BaseExcess', 'HCO3', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1392,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1393,"('BUN', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1394,"('Calcium', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1395,"('Glucose', 'Magnesium', 'Hgb')",1
+1396,"('Potassium', 'WBC')",1
+1397,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Hct', 'PTT')",1
+1398,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1399,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'Hgb', 'Fibrinogen', 'Platelets')",1
+1400,"('FiO2', 'Calcium', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium')",1
+1401,"('FiO2', 'Calcium', 'Glucose', 'Potassium', 'TroponinI')",1
+1402,"('AST', 'Alkalinephos', 'Creatinine', 'Bilirubin_direct', 'Magnesium', 'Phosphate', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1403,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct')",1
+1404,"('FiO2', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb')",1
+1405,"('Magnesium', 'Phosphate', 'PTT')",1
+1406,"('AST', 'Bilirubin_direct', 'Glucose', 'Bilirubin_total', 'TroponinI')",1
+1407,"('Bilirubin_direct', 'Glucose', 'Bilirubin_total', 'Fibrinogen')",1
+1408,"('FiO2', 'pH', 'PaCO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+1409,"('FiO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+1410,"('FiO2', 'pH', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1411,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Lactate', 'Magnesium', 'Potassium', 'TroponinI')",1
+1412,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'PTT', 'Fibrinogen')",1
+1413,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'PTT', 'Fibrinogen')",1
+1414,"('FiO2', 'pH', 'PaCO2', 'Lactate', 'Potassium')",1
+1415,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1416,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'PTT')",1
+1417,"('pH', 'PaCO2', 'SaO2', 'Magnesium')",1
+1418,"('FiO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1419,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'PTT', 'Fibrinogen')",1
+1420,"('pH', 'PaCO2', 'SaO2', 'Calcium', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1421,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'PTT')",1
+1422,"('BUN', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1423,"('pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total')",1
+1424,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total')",1
+1425,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1426,"('FiO2', 'Magnesium', 'Phosphate')",1
+1427,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'PTT', 'Platelets')",1
+1428,"('Calcium', 'Phosphate', 'TroponinI')",1
+1429,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1430,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'PTT', 'Fibrinogen', 'Platelets')",1
+1431,"('FiO2', 'pH', 'PaCO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1432,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1433,"('AST', 'Alkalinephos', 'Glucose', 'Magnesium', 'Potassium')",1
+1434,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total')",1
+1435,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1436,"('FiO2', 'pH', 'PaCO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'PTT')",1
+1437,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total')",1
+1438,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1439,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'TroponinI', 'Hct', 'Hgb')",1
+1440,"('Magnesium', 'Phosphate', 'Potassium', 'PTT', 'Fibrinogen', 'Platelets')",1
+1441,"('Bilirubin_direct', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1442,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1443,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1444,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb')",1
+1445,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total')",1
+1446,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+1447,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'Alkalinephos', 'Bilirubin_direct', 'Glucose', 'Bilirubin_total')",1
+1448,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1449,"('Glucose', 'Phosphate', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1450,"('FiO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1451,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total')",1
+1452,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1453,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'TroponinI', 'Fibrinogen')",1
+1454,"('Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'Fibrinogen', 'Platelets')",1
+1455,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Magnesium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1456,"('pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1457,"('FiO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1458,"('pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1459,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'Platelets')",1
+1460,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1461,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC')",1
+1462,"('pH',)",1
+1463,"('FiO2', 'pH', 'PaCO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1464,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Bilirubin_total', 'Fibrinogen', 'Platelets')",1
+1465,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Magnesium', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1466,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1467,"('pH', 'PaCO2', 'SaO2', 'Potassium', 'TroponinI')",1
+1468,"('pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total')",1
+1469,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Glucose', 'Lactate', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+1470,"('FiO2', 'pH', 'PaCO2', 'Calcium', 'Lactate', 'Potassium')",1
+1471,"('FiO2', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb')",1
+1472,"('FiO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+1473,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'TroponinI', 'Platelets')",1
+1474,"('FiO2', 'pH', 'PaCO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'PTT', 'Fibrinogen', 'Platelets')",1
+1475,"('FiO2', 'Phosphate')",1
+1476,"('BaseExcess', 'HCO3', 'FiO2', 'pH', 'PaCO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb')",1
+1477,"('pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total')",1
+1478,"('FiO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium')",1
+1479,"('HCO3', 'PaCO2', 'SaO2', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1480,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1481,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Platelets')",1
+1482,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'PTT', 'Fibrinogen', 'Platelets')",1
+1483,"('FiO2', 'PTT', 'Fibrinogen', 'Platelets')",1
+1484,"('FiO2', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1485,"('FiO2', 'pH', 'PaCO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'Fibrinogen')",1
+1486,"('Glucose', 'Bilirubin_total')",1
+1487,"('FiO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'TroponinI')",1
+1488,"('Creatinine', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI', 'Hgb')",1
+1489,"('Bilirubin_total', 'TroponinI')",1
+1490,"('BUN', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total')",1
+1491,"('FiO2', 'AST', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1492,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb')",1
+1493,"('pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1494,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1495,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Glucose', 'Bilirubin_total', 'PTT', 'Fibrinogen', 'Platelets')",1
+1496,"('FiO2', 'pH', 'PaCO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium')",1
+1497,"('FiO2', 'pH', 'PaCO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Hgb')",1
+1498,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1499,"('Glucose', 'Phosphate', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1500,"('Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'Fibrinogen')",1
+1501,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Phosphate', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1502,"('BaseExcess', 'HCO3', 'pH', 'PaCO2', 'SaO2', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb')",1
+1503,"('FiO2', 'Calcium', 'Lactate')",1
+1504,"('Phosphate', 'PTT', 'Fibrinogen', 'Platelets')",1
+1505,"('Phosphate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1506,"('Phosphate', 'Potassium', 'PTT', 'Fibrinogen', 'Platelets')",1
+1507,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'Fibrinogen', 'Platelets')",1
+1508,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI', 'Platelets')",1
+1509,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1510,"('BaseExcess', 'HCO3', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1511,"('Magnesium', 'Potassium', 'PTT', 'Fibrinogen', 'Platelets')",1
+1512,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'Fibrinogen')",1
+1513,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'PTT')",1
+1514,"('Bilirubin_direct', 'Bilirubin_total')",1
+1515,"('pH', 'PaCO2', 'SaO2', 'Calcium', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1516,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Lactate', 'Magnesium', 'PTT', 'Fibrinogen', 'Platelets')",1
+1517,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1518,"('FiO2', 'AST', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1519,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total')",1
+1520,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'PTT', 'Fibrinogen')",1
+1521,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Fibrinogen')",1
+1522,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'PTT', 'Platelets')",1
+1523,"('pH', 'PaCO2', 'SaO2', 'Calcium', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1524,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'PTT', 'Fibrinogen')",1
+1525,"('Magnesium', 'Phosphate', 'Potassium', 'PTT')",1
+1526,"('FiO2', 'AST', 'Alkalinephos', 'Bilirubin_direct', 'Glucose', 'Bilirubin_total')",1
+1527,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'Alkalinephos', 'Calcium', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1528,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Bilirubin_total', 'PTT', 'Fibrinogen', 'Platelets')",1
+1529,"('pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb')",1
+1530,"('pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Phosphate', 'Potassium')",1
+1531,"('Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'PTT', 'Fibrinogen', 'Platelets')",1
+1532,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total')",1
+1533,"('Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1534,"('FiO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'PTT', 'Fibrinogen', 'Platelets')",1
+1535,"('pH', 'PaCO2', 'SaO2', 'Glucose', 'Magnesium', 'Potassium')",1
+1536,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Magnesium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1537,"('FiO2', 'pH', 'PaCO2', 'Chloride', 'Glucose', 'Lactate')",1
+1538,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'PTT', 'Fibrinogen')",1
+1539,"('BaseExcess', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'Lactate', 'Potassium', 'TroponinI', 'Hct')",1
+1540,"('FiO2', 'pH', 'PaCO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1541,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'Alkalinephos', 'Calcium', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1542,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Magnesium', 'Phosphate', 'Bilirubin_total', 'TroponinI', 'Hgb', 'PTT')",1
+1543,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+1544,"('FiO2', 'pH', 'PaCO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'Fibrinogen', 'Platelets')",1
+1545,"('Calcium', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total')",1
+1546,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Potassium')",1
+1547,"('BaseExcess', 'HCO3', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1548,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'Fibrinogen', 'Platelets')",1
+1549,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'PTT')",1
+1550,"('pH', 'SaO2', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb')",1
+1551,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Fibrinogen', 'Platelets')",1
+1552,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1553,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'Alkalinephos', 'Calcium', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Phosphate', 'Potassium', 'Bilirubin_total')",1
+1554,"('pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1555,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+1556,"('Calcium', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1557,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium')",1
+1558,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1559,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Phosphate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1560,"('BUN', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1561,"('BUN', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Phosphate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1562,"('Phosphate', 'TroponinI', 'Hgb')",1
+1563,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Bilirubin_total', 'Hgb', 'Fibrinogen')",1
+1564,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'Platelets')",1
+1565,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Glucose', 'Bilirubin_total', 'PTT', 'Fibrinogen')",1
+1566,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'PTT')",1
+1567,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1568,"('Magnesium', 'PTT', 'Fibrinogen')",1
+1569,"('FiO2', 'pH', 'PaCO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1570,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1571,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'PTT', 'Platelets')",1
+1572,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1573,"('Lactate', 'TroponinI')",1
+1574,"('Glucose', 'Fibrinogen', 'Platelets')",1
+1575,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1576,"('Phosphate', 'Potassium', 'PTT')",1
+1577,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'PTT')",1
+1578,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1579,"('BUN', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Magnesium', 'Potassium')",1
+1580,"('FiO2', 'Glucose', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1581,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Hgb', 'PTT', 'Fibrinogen', 'Platelets')",1
+1582,"('FiO2', 'Glucose', 'Lactate', 'Phosphate', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1583,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1584,"('AST', 'Alkalinephos', 'Bilirubin_direct', 'Bilirubin_total', 'WBC')",1
+1585,"('Glucose', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+1586,"('BUN', 'Calcium', 'Creatinine', 'Glucose', 'Potassium', 'Hct', 'WBC', 'Platelets')",1
+1587,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'Bilirubin_total', 'Platelets')",1
+1588,"('FiO2', 'pH', 'PaCO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate')",1
+1589,"('Magnesium', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+1590,"('FiO2', 'Glucose', 'TroponinI', 'Hgb')",1
+1591,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Phosphate', 'Potassium', 'Bilirubin_total', 'PTT')",1
+1592,"('TroponinI', 'Hgb', 'PTT')",1
+1593,"('pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Lactate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1594,"('BaseExcess', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb')",1
+1595,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Magnesium', 'Potassium', 'Hct', 'Hgb', 'WBC', 'Fibrinogen', 'Platelets')",1
+1596,"('pH', 'PaCO2', 'SaO2', 'Calcium', 'Glucose', 'Lactate', 'Potassium', 'PTT', 'Fibrinogen')",1
+1597,"('BUN', 'Potassium')",1
+1598,"('pH', 'PaCO2', 'SaO2', 'Calcium', 'Lactate', 'Potassium', 'TroponinI')",1
+1599,"('Calcium', 'Glucose', 'Lactate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1600,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hgb')",1
+1601,"('pH', 'PaCO2', 'SaO2', 'Fibrinogen')",1
+1602,"('BaseExcess', 'pH', 'PaCO2', 'SaO2', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'Hct', 'Hgb')",1
+1603,"('Glucose', 'Magnesium', 'Potassium', 'TroponinI', 'Hct', 'Hgb')",1
+1604,"('Phosphate', 'Potassium', 'Hct', 'Hgb')",1
+1605,"('FiO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Bilirubin_direct', 'Glucose', 'Potassium', 'Bilirubin_total', 'TroponinI')",1
+1606,"('Bilirubin_direct', 'Magnesium', 'Potassium', 'PTT')",1
+1607,"('AST', 'BUN', 'Alkalinephos', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1608,"('Creatinine', 'TroponinI')",1
+1609,"('BaseExcess', 'HCO3', 'FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'Hct', 'Hgb', 'PTT', 'WBC', 'Fibrinogen', 'Platelets')",1
+1610,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Creatinine', 'Glucose', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1611,"('FiO2', 'Glucose', 'TroponinI', 'Hct', 'Hgb', 'PTT', 'WBC', 'Platelets')",1
+1612,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'Calcium', 'Chloride', 'Glucose', 'Lactate', 'Potassium', 'TroponinI', 'Hct', 'Hgb', 'WBC', 'Platelets')",1
+1613,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'AST', 'BUN', 'Alkalinephos', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'Bilirubin_total', 'TroponinI', 'Fibrinogen')",1
+1614,"('FiO2', 'pH', 'PaCO2', 'SaO2', 'BUN', 'Calcium', 'Chloride', 'Creatinine', 'Glucose', 'Lactate', 'Magnesium', 'Phosphate', 'Potassium', 'TroponinI', 'Fibrinogen')",1
