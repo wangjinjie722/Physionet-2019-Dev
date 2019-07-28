@@ -18,11 +18,11 @@ from keras.layers import Dense
 import matplotlib.pyplot as plt
 from keras.models import Sequential
 from keras.models import load_model
-from keras.layers import LSTM, Dropout
 from sklearn.metrics import roc_auc_score
 from keras.layers import BatchNormalization
 from keras.utils.np_utils import to_categorical
 from sklearn.model_selection import train_test_split
+from keras.layers import LSTM, Dropout, Bidirectional
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder,MinMaxScaler
 from sklearn.metrics import confusion_matrix, precision_score, recall_score, \
     average_precision_score, precision_recall_curve
@@ -76,13 +76,12 @@ def build_model():
     """
     model = models.Sequential()
     model.add(BatchNormalization())
-    model.add(LSTM(50, input_shape=(patient_length,num_features)))
-    model.add(layers.Dense(100,activation='relu'))
+    model.add(Bidirectional(LSTM(units=50,return_sequences=True), input_shape=(patient_length,num_features)))
+    model.add(layers.Dense(200,activation='tanh'))
     model.add(Dropout(0.5))
     model.add(layers.Dense(patient_length,activation='sigmoid'))
-    #model.add(Dense(patient_length))
-    #model.compile(loss='mae', optimizer='adam')
-    model.compile(loss='binary_crossentropy', optimizer='adam')
+    #model.compile(loss='binary_crossentropy', optimizer='adam')
+    model.compile(loss='mse', optimizer='adam')
     return model
 
 def data_process(meta_data):
@@ -105,8 +104,9 @@ def data_process(meta_data):
 
     # cut train data
     train_data = np.array(train_data)[:int(len(meta_data)//100) * 100]
-    scaler = MinMaxScaler(feature_range=(0, 1))
-    train_data = scaler.fit_transform(train_data)
+
+    #scaler = MinMaxScaler(feature_range=(0, 1))
+    #train_data = scaler.fit_transform(train_data)
     train_label = np.asarray(train_label).astype('float32')
 
     train_size = len(meta_data)
@@ -144,14 +144,23 @@ if __name__ == '__main__':
     # begin to train!
     history = model.fit(partial_x_train,
                         partial_y_train,
-                        epochs=200,
-                        batch_size=10,
+                        epochs=50,
+                        batch_size=24,
                         validation_data=(x_val,y_val))
                         
-    model.save(f'LSTM_{NOW}.h5')
+    model.save(f'./model/LSTM_{NOW}.h5')
 
     # plot
     plt.figure(1)
     plt.plot(history.history[ 'loss' ])
     plt.plot(history.history[ 'val_loss' ])
-    plt.savefig(f"history_{NOW}.png")
+    plt.savefig(f"./result/history_{NOW}.png")
+
+
+    with open('test_doc.txt', 'r') as fr:
+        lines = fr.readlines()
+    with open('test_doc.txt', 'w') as f:
+        for line in lines:
+            # 对每一行进行操作
+            f.write(f'{line}') # 写入你想要的东西
+        f.write(f'{NOW} | {sys.args[2]}')

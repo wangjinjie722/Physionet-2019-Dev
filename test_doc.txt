@@ -1,0 +1,4 @@
+2019-07-25-14-32-30 | A with dense
+2019-07-26-13-12-25 | AB without dense
+2019-07-26-14-27-35 | AB with dense
+2019-07-26-14-26-14 | AB no feature engineering with dense
