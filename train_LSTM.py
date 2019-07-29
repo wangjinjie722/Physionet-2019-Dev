@@ -46,7 +46,7 @@ custom_.remove('ICULOS')
 now = int(round(time.time()*1000))
 NOW = time.strftime('%Y-%m-%d-%H-%M-%S',time.localtime(now/1000))
 patient_length = 100
-num_features = len(custom_)
+num_features = len(custom)
 
 def sample_shuffle(train, label):
     """

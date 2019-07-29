@@ -2,3 +2,6 @@
 2019-07-26-13-12-25 | AB without dense
 2019-07-26-14-27-35 | AB with dense
 2019-07-26-14-26-14 | AB no feature engineering with dense
+
+2019-07-29-09-54-18 | newAB no dense
+2019-07-29-09-54-18 | newAB with dense
