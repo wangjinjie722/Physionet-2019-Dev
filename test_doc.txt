@@ -5,3 +5,12 @@
 
 2019-07-29-09-54-18 | newAB no dense
 2019-07-29-09-54-18 | newAB with dense
+2019-07-29-14-43-36 | newAB with dense and masking
+2019-07-29-20-58-19 | newAB with no dense 01_rate 2 30 epoch mse
+LSTM_{NOW}.h5 | bidirectional
+2019-07-29-21-13-12 | newAB with no dense 01_rate 2 50 overfit
+
+2019-07-29-22-40-45 | newAB with no dense 01_rate 2 30 binarycorss
+2019-07-30-16-50-28 | newAB with no dense 01_rate 2 binarycorss new_metrics
+2019-07-31-15-24-34 | newAB with no dense 01_rate 2 binarycorss new_metrics
+2019-07-31-17-42-55 | newAB with no dense 01_rate=2 kw_loss weights=1

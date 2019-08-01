@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+
 import os
 import sys
 import copy
@@ -8,7 +9,9 @@ import zipfile
 import numpy as np
 import pandas as pd
 from pandas import *
+from tqdm import tqdm
 from os import listdir
+import tensorflow as tf
 from keras import layers
 from keras import models
 from sklearn import metrics
@@ -22,6 +25,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder,MinMaxScaler
 from sklearn.metrics import confusion_matrix, precision_score, recall_score, \
     average_precision_score, precision_recall_curve
+from keras import backend as K
+
 
 
 # parameters
@@ -45,9 +50,7 @@ custom = ['custom_age', 'custom_hr', 'custom_o2sat', 'custom_temp',
 custom_ = copy.deepcopy(custom)
 custom_.remove('HospAdmTime')
 custom_.remove('ICULOS')
-model_name = './model/LSTM_2019-07-29-09-54-18.h5'
-encoder_name = './model/Encoder_2019-07-29-09-54-18.pkl'
-threshold = 0.8
+
 
 
 
@@ -449,6 +452,68 @@ def feature_engineer(train):
     
     return train
 
+def w_binary_crossentropy(y_true, y_pred):
+    return K.mean(tf.nn.weighted_cross_entropy_with_logits(
+                                                           y_true,
+                                                           y_pred,
+                                                           1,
+                                                           name=None
+                                                           ), axis=-1)
+
+def weighted_binary_crossentropy(weights):
+    def w_binary_crossentropy(y_true, y_pred):
+        return K.mean(tf.nn.weighted_cross_entropy_with_logits(
+                                                               y_true,
+                                                               y_pred,
+                                                               weights,
+                                                               name=None
+                                                               ), axis=-1)
+    return w_binary_crossentropy
+kw_loss = weighted_binary_crossentropy(weights=1)
+
+def precision(y_true, y_pred):
+    # Calculates the precision
+    true_positives = K.sum(K.round(K.clip(y_true * y_pred, 0, 1)))
+    predicted_positives = K.sum(K.round(K.clip(y_pred, 0, 1)))
+    precision = true_positives / (predicted_positives + K.epsilon())
+    return precision
+
+
+def recall(y_true, y_pred):
+    # Calculates the recall
+    true_positives = K.sum(K.round(K.clip(y_true * y_pred, 0, 1)))
+    possible_positives = K.sum(K.round(K.clip(y_true, 0, 1)))
+    recall = true_positives / (possible_positives + K.epsilon())
+    return recall
+
+def fbeta_score(y_true, y_pred, beta=1):
+    # Calculates the F score, the weighted harmonic mean of precision and recall.
+    
+    if beta < 0:
+        raise ValueError('The lowest choosable beta is zero (only precision).')
+    
+    # If there are no true positives, fix the F score at 0 like sklearn.
+    if K.sum(K.round(K.clip(y_true, 0, 1))) == 0:
+        return 0
+    
+    p = precision(y_true, y_pred)
+    r = recall(y_true, y_pred)
+    bb = beta ** 2
+    fbeta_score = (1 + bb) * (p * r) / (bb * p + r + K.epsilon())
+    return fbeta_score
+
+def fmeasure(y_true, y_pred):
+    # Calculates the f-measure, the harmonic mean of precision and recall.
+    return fbeta_score(y_true, y_pred, beta=1)
+
+
+def feature_engineer_cut_np(train):
+    tmp = train[-1:]
+    while len(train) <= 100:
+        train = np.concatenate((train,tmp),axis=0)
+    if len(train) > 100:
+        train = train[:100]
+    return train
 
 def fix_100(res, org_length):
     """
@@ -463,7 +528,7 @@ def fix_100(res, org_length):
     """
     l = 100 # fixed length of each patient
     
-    tmp_res = list(res[0])
+    tmp_res = list(res)
     
     if org_length <= l:
         tmp_res = tmp_res[:org_length]
@@ -471,8 +536,8 @@ def fix_100(res, org_length):
         last = tmp_res[-1]
         tmp_res += [last for _ in range(org_length- l)]
 
-    
     tmp_predict = [1 for _ in range(len(tmp_res))]
+
     for r in range(len(tmp_res)):
         if tmp_res[r] < threshold:
             tmp_predict[r] = 0
@@ -488,12 +553,19 @@ def fix_100(res, org_length):
 
 def load_sepsis_model():
     
-    model = load_model(model_name)
+    #model = load_model(model_name) # you need this without self defined loss function
+    model = load_model(model_name, custom_objects={'w_binary_crossentropy':w_binary_crossentropy,'fmeasure':fmeasure}) # only for self-defined weighted binary crossentropy situation
     pkl_file = open(encoder_name, 'rb')
     encoder = pickle.load(pkl_file)
     pkl_file.close()
 
     return [model, encoder]
+
+# change me everytime you change the model
+NOW = '2019-07-31-17-42-55'
+model_name = f'./model/LSTM_{NOW}.h5'
+encoder_name = f'./model/Encoder_{NOW}.pkl'
+threshold = 0.8
 
 def get_sepsis_score(data, model):
     
@@ -503,24 +575,63 @@ def get_sepsis_score(data, model):
     org_length = len(cur_train)
     cur_train = cur_train.fillna(method='pad')
     cur_train = feature_engineer(cur_train)[feature_to_use]
-    
+    kw_loss = weighted_binary_crossentropy(weights=1)
     for c in custom_:
-        #cur_train[c][0:len(cur_train[c])] = encoder_.fit_transform(cur_train[c][0:len(cur_train[c])])
         cur_train[c][0:len(cur_train[c])] = encoder[c].transform(cur_train[c][0:len(cur_train[c])])
     
-    scaler = MinMaxScaler(feature_range=(0, 1))
+    
+    preds = [0 for _ in range(len(cur_train))]
+    org_pred = [0 for _ in range(len(cur_train))]
+    tmp = [0 for _ in range(len(cur_train))]
 
     dtest = np.array(cur_train[custom])
+    dtest = feature_engineer_cut_np(dtest)
     dtest = dtest.reshape(-1,100,len(custom))
-    preds = LSTM_model.predict(dtest)
+    predicted = list(LSTM_model.predict(dtest)[0])
 
-    org = preds
+    for t in range(len(cur_train)):
+#        dtest = np.array(cur_train[custom][:t+1])
+#        dtest = feature_engineer_cut_np(dtest)
+#        dtest = dtest.reshape(-1,100,len(custom))
+#        predicted_ = list(LSTM_model.predict(dtest)[0])
+        preds[t] = predicted[t]
+#        print(abs(predicted_[t] - predicted[t]) )
+        #print(predicted_[:t+1] == predicted[:t+1])
+        front_preds = []
+        if t >= 1:
+            front_preds.append(predicted[t-1])
+        if t >= 2:
+            front_preds.append(predicted[t-2])
+        if t >= 3:
+            front_preds.append(predicted[t-3])
+
+        tmp_fp = []
+        tmp_p = []
+        for fp in front_preds:
+            if fp >= threshold:
+                tmp_fp.append(1)
+                tmp_p.append(fp)
+            elif fp < threshold:
+                tmp_fp.append(-1)
+                tmp_p.append(1 - fp)
+        tmp[t] = 0
+        for i in range(len(tmp_p)):
+            tmp[t] += (tmp_p[i] * tmp_fp[i])
+# print(preds[t], tmp_fp,f'*----{t}--------')
+# print(len(preds[t]))
+        org_pred[t] = preds[t]
+        tmp[t] /= 3
+        preds[t] = preds[t] * 0.95 + 0.05 * tmp[t]
+
+                
     gap = max(preds) - 0 + 0.01
     preds = (preds / gap)
-    preds = [abs(x) for x in preds]
-    
+    preds = [p if p > 0 else 0 for p in preds]
+#preds = [abs(x) for x in preds]
+    #label = [1 if p >= threshold else 0 for p in preds]
     score, label = fix_100(preds, org_length)
-
-    return score, label, org
-
+    org_pred,_ = fix_100(org_pred, org_length)
+    tmp,_ = fix_100(tmp, org_length)
+#print(score)
+    return score, label, org_pred, tmp
 

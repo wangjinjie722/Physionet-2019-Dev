@@ -89,7 +89,7 @@ def evaluate_scores(label_file, prediction_file):
         if 0<np.sum(predictions)<num_records:
             min_probability_positive = np.min(probabilities[predictions == 1])
             max_probability_negative = np.max(probabilities[predictions == 0])
-            print(min_probability_positive, max_probability_negative)
+            #print(min_probability_positive, max_probability_negative)
             if min_probability_positive <= max_probability_negative:
                 raise Exception('Predictions are inconsistent with probabilities, i.e., a positive prediction has a lower (or equal) probability than a negative prediction.')
 
