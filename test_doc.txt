@@ -15,3 +15,4 @@ LSTM_{NOW}.h5 | bidirectional
 2019-07-31-15-24-34 | newAB with no dense 01_rate 2 binarycorss new_metrics
 2019-07-31-17-42-55 | newAB with no dense 01_rate=2 kw_loss weights=1
 2019-08-01-12-50-04 | newAB with no dense 01_rate=2 kw_loss weights=1 nle
+2019-08-01-15-07-59 | newAB with no dense 01_rate=2 mse_loss weights=1 nle

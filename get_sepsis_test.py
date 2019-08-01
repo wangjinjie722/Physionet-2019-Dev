@@ -96,6 +96,9 @@ if __name__ == '__main__':
     elif int(sys.argv[1]) == 22:
         with open('./data/test2.pkl', 'rb') as file:
             test_candidate = pickle.load(file)
+    elif int(sys.argv[1]) == 55:
+        with open('./data/test3.pkl', 'rb') as file:
+            test_candidate = pickle.load(file)
 
     random.shuffle(test_candidate)
 

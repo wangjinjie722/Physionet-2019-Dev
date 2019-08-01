@@ -566,7 +566,7 @@ def load_sepsis_model():
     return model
 
 # change me everytime you change the model
-NOW = '2019-07-31-17-42-55'
+NOW = '2019-08-01-12-50-04'
 model_name = f'./model/LSTM_{NOW}.h5'
 #encoder_name = f'./model/Encoder_{NOW}.pkl'
 threshold = 0.8
@@ -627,7 +627,7 @@ def get_sepsis_score(data, model):
         org_pred[t] = preds[t]
         if len(tmp_p) >= 2:
             tmp[t] /= len(tmp_p)
-            preds[t] = org_pred[t] * 0.9 + 0.1 * tmp[t]
+            preds[t] = org_pred[t] * 1.0 + 0.0 * tmp[t]
         else:
             preds[t] = org_pred[t]
                 
