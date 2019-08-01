@@ -155,16 +155,16 @@ if __name__ == '__main__':
             name = i[10:17]
             z.write(f'./predictions/{name}.txt')
 
-    org_label = [ol + 0.05 if ol == 1 else ol - 0.05 for ol in org_label]
-    plt.figure(1)
-    plt.scatter(list(range(len(org_label))), score,c = 'g',alpha = 0.1)
-    plt.scatter(list(range(len(org_label))), org_label,c = 'b',alpha = 0.1)
-    plt.scatter(list(range(len(org_label))), label,c = 'r',alpha = 0.1)
-    plt.scatter(list(range(len(org_label))), org_pred,c = 'black',alpha = 0.1)
-    plt.scatter(list(range(len(org_label))), top3,c = 'y',alpha = 0.1)
-    plt.legend(['probability','true','prdicted','org_pred','top3'], loc = 'lower right')
-    plt.title('Predicted Result of N samples from set B by model trained by set A')
-    plt.show()
+#    org_label = [ol + 0.05 if ol == 1 else ol - 0.05 for ol in org_label]
+#    plt.figure(1)
+#    plt.scatter(list(range(len(org_label))), score,c = 'g',alpha = 0.1)
+#    plt.scatter(list(range(len(org_label))), org_label,c = 'b',alpha = 0.1)
+#    plt.scatter(list(range(len(org_label))), label,c = 'r',alpha = 0.1)
+#    plt.scatter(list(range(len(org_label))), org_pred,c = 'black',alpha = 0.1)
+#    plt.scatter(list(range(len(org_label))), top3,c = 'y',alpha = 0.1)
+#    plt.legend(['probability','true','prdicted','org_pred','top3'], loc = 'lower right')
+#    plt.title('Predicted Result of N samples from set B by model trained by set A')
+#    plt.show()
 
 
     # python3 evaluate_sepsis_score.py labels.zip predictions.zip

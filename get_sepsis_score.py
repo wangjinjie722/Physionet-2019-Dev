@@ -26,7 +26,7 @@ from sklearn.preprocessing import LabelEncoder, OneHotEncoder,MinMaxScaler
 from sklearn.metrics import confusion_matrix, precision_score, recall_score, \
     average_precision_score, precision_recall_curve
 from keras import backend as K
-
+import matplotlib.pyplot as plt
 
 
 # parameters
@@ -588,6 +588,7 @@ def get_sepsis_score(data, model):
     dtest = feature_engineer_cut_np(dtest)
     dtest = dtest.reshape(-1,100,len(custom))
     predicted = list(LSTM_model.predict(dtest)[0])
+    org_label = cur_train['SepsisLabel']
 
     for t in range(len(cur_train)):
 #        dtest = np.array(cur_train[custom][:t+1])
@@ -609,19 +610,23 @@ def get_sepsis_score(data, model):
         tmp_p = []
         for fp in front_preds:
             if fp >= threshold:
-                tmp_fp.append(1)
+                tmp_fp.append(fp)
                 tmp_p.append(fp)
             elif fp < threshold:
-                tmp_fp.append(-1)
-                tmp_p.append(1 - fp)
+                tmp_fp.append(fp)
+                tmp_p.append(1-fp)
         tmp[t] = 0
         for i in range(len(tmp_p)):
             tmp[t] += (tmp_p[i] * tmp_fp[i])
 # print(preds[t], tmp_fp,f'*----{t}--------')
 # print(len(preds[t]))
         org_pred[t] = preds[t]
-        tmp[t] /= 3
-        preds[t] = preds[t] * 0.95 + 0.05 * tmp[t]
+#tmp[t] /= 3
+        if tmp[t] == 0:
+            preds[t] = org_pred[t] * 0.6 + 0.4 * tmp[t]
+        else:
+            preds[t] = org_pred[t]
+                
 
                 
     gap = max(preds) - 0 + 0.01
@@ -632,6 +637,19 @@ def get_sepsis_score(data, model):
     score, label = fix_100(preds, org_length)
     org_pred,_ = fix_100(org_pred, org_length)
     tmp,_ = fix_100(tmp, org_length)
+    org_label, _ = fix_100(org_label, org_length)
 #print(score)
+
+    org_label = [ol + 0.05 if ol == 1 else ol - 0.05 for ol in org_label]
+    plt.figure(1)
+    plt.scatter(list(range(len(org_label))), score,c = 'g',alpha = 0.1)
+    plt.scatter(list(range(len(org_label))), org_label,c = 'b',alpha = 0.1)
+    plt.scatter(list(range(len(org_label))), label,c = 'r',alpha = 0.1)
+    plt.scatter(list(range(len(org_label))), org_pred,c = 'black',alpha = 0.1)
+    plt.scatter(list(range(len(org_label))), tmp,c = 'y',alpha = 0.1)
+    plt.legend(['probability','true','prdicted','org_pred','top3'], loc = 'lower right')
+    plt.title('Predicted Result of N samples from set B by model trained by set A')
+    plt.show()
+    
     return score, label, org_pred, tmp
 
