@@ -1,6 +1,6 @@
 # PN2019
 
-###文件说明
+### 文件说明
 
 - evaluate_sepsis_score.py 官方给的算utility的文件 python3 evaluate_sepsis_score.py labels.zip predictions.zip 执行 每次会在predictions里
 - train_LSTM.py 用来训练LSTM的自动脚本
