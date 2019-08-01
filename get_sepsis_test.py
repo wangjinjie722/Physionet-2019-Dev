@@ -75,6 +75,7 @@ if __name__ == '__main__':
     with open('./data/test2.pkl', 'rb') as file:
         test2 = pickle.load(file)
 
+    random.seed(7)
     random.shuffle(patient)
     random.shuffle(normal)
 
@@ -90,6 +91,7 @@ if __name__ == '__main__':
         print(test_candidate)
     elif int(sys.argv[1]) == 3:
         test_candidate = [sys.argv[2]]
+        print(test_candidate)
     elif int(sys.argv[1]) == 11:
         with open('./data/test1.pkl', 'rb') as file:
             test_candidate = pickle.load(file)
@@ -98,6 +100,9 @@ if __name__ == '__main__':
             test_candidate = pickle.load(file)
     elif int(sys.argv[1]) == 55:
         with open('./data/test3.pkl', 'rb') as file:
+            test_candidate = pickle.load(file)
+    elif int(sys.argv[1]) == 555:
+        with open('./data/test4.pkl', 'rb') as file:
             test_candidate = pickle.load(file)
 
     random.shuffle(test_candidate)
@@ -180,7 +185,7 @@ if __name__ == '__main__':
     plt.scatter(list(range(len(org_label))), org_pred,c = 'black',alpha = 0.1)
     plt.scatter(list(range(len(org_label))), top3,c = 'y',alpha = 0.1)
     plt.legend(['probability','true','prdicted','org_pred','top3'], loc = 'lower right')
-    plt.title('Predicted Result of N samples from set B by model trained by set A')
+    plt.title(f'Predicted Result of {len(test_candidate)} samples')
     plt.show()
 
 

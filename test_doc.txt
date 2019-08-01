@@ -16,3 +16,8 @@ LSTM_{NOW}.h5 | bidirectional
 2019-07-31-17-42-55 | newAB with no dense 01_rate=2 kw_loss weights=1
 2019-08-01-12-50-04 | newAB with no dense 01_rate=2 kw_loss weights=1 nle
 2019-08-01-15-07-59 | newAB with no dense 01_rate=2 mse_loss weights=1 nle
+2019-08-01-15-22-26 | newAB with no dense 01_rate=2 kw_loss weights=5 nle
+2019-08-01-16-16-01 | nle 128 dense ep_100 bs_16 01_rate=2 kw_loss weights_5 
+2019-08-01-21-24-44 | nle no dense ep_50 bs_16 01_rate=2 kw_loss weights_1  without time feature
+2019-08-01-22-03-05 | nle no dense ep_30 bs_16 01_rate=2 mse_loss weights_1 underfitting
+2019-08-01-22-22-25 | nle no dense ep_30 bs_16 01_rate=2 mse_loss weights_1  with time before ICU

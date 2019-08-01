@@ -42,17 +42,25 @@ feature_to_use = ['custom_age', 'custom_bp', 'custom_hr', 'custom_o2sat', 'custo
                   'custom_troponini', 'custom_hct', 'custom_hgb', 'custom_wbc', 'custom_fibrinogen',
                   'custom_platelets', 'Gender', 'Unit', 'HospAdmTime', 'ICULOS','SepsisLabel']
 
+#custom = ['custom_age', 'custom_hr', 'custom_o2sat', 'custom_temp',
+#          'custom_resp', 'custom_hco3', 'custom_ph',
+#          'custom_bun', 'custom_BC_ratio',
+#          'custom_calcium', 'custom_chloride', 'custom_creatinine',
+#          'custom_glucose', 'custom_magnesium', 'custom_phosphate', 'custom_potassium',
+#          'custom_hct', 'custom_hgb', 'custom_wbc',
+#          'custom_platelets', 'Gender', 'Unit', 'HospAdmTime', 'ICULOS']
+
 custom = ['custom_age', 'custom_hr', 'custom_o2sat', 'custom_temp',
           'custom_resp', 'custom_hco3', 'custom_ph',
           'custom_bun', 'custom_BC_ratio',
           'custom_calcium', 'custom_chloride', 'custom_creatinine',
           'custom_glucose', 'custom_magnesium', 'custom_phosphate', 'custom_potassium',
           'custom_hct', 'custom_hgb', 'custom_wbc',
-          'custom_platelets', 'Gender', 'Unit', 'HospAdmTime', 'ICULOS']
+          'custom_platelets', 'Gender', 'Unit', 'HospAdmTime']
 
 custom_ = copy.deepcopy(custom)
-custom_.remove('HospAdmTime')
-custom_.remove('ICULOS')
+#custom_.remove('HospAdmTime')
+#custom_.remove('ICULOS')
 
 
 
@@ -566,10 +574,10 @@ def load_sepsis_model():
     return model
 
 # change me everytime you change the model
-NOW = '2019-08-01-12-50-04'
+NOW = '2019-08-01-22-22-25'
 model_name = f'./model/LSTM_{NOW}.h5'
 #encoder_name = f'./model/Encoder_{NOW}.pkl'
-threshold = 0.8
+threshold = 0.4
 
 def get_sepsis_score(data, model):
     
@@ -595,13 +603,20 @@ def get_sepsis_score(data, model):
     org_label = cur_train['SepsisLabel']
 
     for t in range(len(cur_train)):
+        # this makes predictions really slow
+        
 #        dtest = np.array(cur_train[custom][:t+1])
 #        dtest = feature_engineer_cut_np(dtest)
 #        dtest = dtest.reshape(-1,100,len(custom))
-#        predicted_ = list(LSTM_model.predict(dtest)[0])
+#        predicted = list(LSTM_model.predict(dtest)[0])
+
+
         preds[t] = predicted[t]
-#        print(abs(predicted_[t] - predicted[t]) )
-        #print(predicted_[:t+1] == predicted[:t+1])
+
+    
+        # xiuzheng zaici
+        
+        
         front_preds = []
         if t >= 1:
             front_preds.append(predicted[t-1])
@@ -617,7 +632,7 @@ def get_sepsis_score(data, model):
                 tmp_fp.append(1)
                 tmp_p.append(fp)
             elif fp < threshold:
-                tmp_fp.append(-1)
+                tmp_fp.append(0)
                 tmp_p.append(1-fp)
         tmp[t] = 0
         for i in range(len(tmp_p)):
@@ -627,14 +642,14 @@ def get_sepsis_score(data, model):
         org_pred[t] = preds[t]
         if len(tmp_p) >= 2:
             tmp[t] /= len(tmp_p)
-            preds[t] = org_pred[t] * 1.0 + 0.0 * tmp[t]
+            preds[t] = org_pred[t] * 0.8 + 0.2 * tmp[t]
         else:
             preds[t] = org_pred[t]
-                
+
 
                 
-    gap = max(preds) - 0 + 0.01
-    preds = (preds / gap)
+#gap = max(preds) - 0 + 0.01
+#preds = (preds / gap)
     preds = [p if p > 0 else 0 for p in preds]
 #preds = [abs(x) for x in preds]
     #label = [1 if p >= threshold else 0 for p in preds]
