@@ -573,7 +573,6 @@ def get_sepsis_score(data, model):
     encoder = model[1]
     cur_train = pd.read_csv(data, sep='|')
     org_length = len(cur_train)
-    cur_train = cur_train.fillna(method='pad')
     cur_train = feature_engineer(cur_train)[feature_to_use]
     kw_loss = weighted_binary_crossentropy(weights=1)
     for c in custom_:

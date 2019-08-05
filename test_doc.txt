@@ -21,3 +21,4 @@ LSTM_{NOW}.h5 | bidirectional
 2019-08-01-21-24-44 | nle no dense ep_50 bs_16 01_rate=2 kw_loss weights_1  without time feature
 2019-08-01-22-03-05 | nle no dense ep_30 bs_16 01_rate=2 mse_loss weights_1 underfitting
 2019-08-01-22-22-25 | nle no dense ep_30 bs_16 01_rate=2 mse_loss weights_1  with time before ICU
+2019-08-05-09-07-30 | nle Only LSTM ep_30 bs_16 01_rate=2 mse_loss weights_1 

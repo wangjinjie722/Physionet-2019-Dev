@@ -33,28 +33,6 @@ import tensorflow as tf
 from get_sepsis_score import *
 
 
-# load_txt
-#def read_txt(txt_name):
-#    patient = []
-#    rs = os.path.exists(txt_name)
-#    if rs:
-#        with open(txt_name,mode='r') as file_handler:
-#            contents = file_handler.readlines()
-#            for name in contents:
-#                name = name.strip('\n')
-#                patient.append(name)
-#    else:
-#        print('txt does not exit')
-#    return patient
-
-
-#    patient_a = read_txt('/Users/wangkai/Downloads/PN2019/patient_a.txt')
-#    patient_b = read_txt('/Users/wangkai/Downloads/PN2019/patient_b.txt')
-#    test_dir = listdir('/Users/wangkai/Downloads/PN2019/data/trainingB/')
-#    random.shuffle(test_dir)
-#    random.shuffle(patient_a)
-#    random.shuffle(patient_b)
-
 if __name__ == '__main__':
 
     # inilization
@@ -75,7 +53,7 @@ if __name__ == '__main__':
     with open('./data/test2.pkl', 'rb') as file:
         test2 = pickle.load(file)
 
-    random.seed(7)
+    #random.seed(7)
     random.shuffle(patient)
     random.shuffle(normal)
 
@@ -104,7 +82,12 @@ if __name__ == '__main__':
     elif int(sys.argv[1]) == 555:
         with open('./data/test4.pkl', 'rb') as file:
             test_candidate = pickle.load(file)
-
+    elif int(sys.argv[1]) == 911:
+        tmp_candidate = listdir('./data/test')
+        if '.DS_Store' in tmp_candidate:
+            tmp_candidate.remove('.DS_Store')
+        test_candidate = ['trainingA/' + l for l in tmp_candidate]
+        
     random.shuffle(test_candidate)
 
     # empty the result dir
@@ -141,26 +124,23 @@ if __name__ == '__main__':
                     f.write('%g|%d\n' % (s, l))
             f.close()
         
+        # save results for every point for plot
         if not len(org_pred):
             org_pred = list(single_pred)
         else:
             org_pred += list(single_pred)
-
         if not len(top3):
             top3 = list(single_top3)
         else:
             top3 += list(single_top3)
-        
         if not len(org_label):
             org_label = list(tmp_data['SepsisLabel'])
         else:
             org_label += list(tmp_data['SepsisLabel'])
-
         if not len(score):
             score = list(single_score)
         else:
             score += list(single_score)
-
         if not len(label):
             label = list(single_label)
         else:
@@ -177,6 +157,7 @@ if __name__ == '__main__':
             name = i[10:17]
             z.write(f'./predictions/{name}.txt')
 
+    # plot
     org_label = [ol + 0.05 if ol == 1 else ol - 0.05 for ol in org_label]
     plt.figure(1)
     plt.scatter(list(range(len(org_label))), score,c = 'g',alpha = 0.1)
@@ -188,7 +169,4 @@ if __name__ == '__main__':
     plt.title(f'Predicted Result of {len(test_candidate)} samples')
     plt.show()
 
-
-    # python3 evaluate_sepsis_score.py labels.zip predictions.zip
-
-
+    
