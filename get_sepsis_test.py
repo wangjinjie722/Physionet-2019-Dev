@@ -53,7 +53,7 @@ if __name__ == '__main__':
     with open('./data/test2.pkl', 'rb') as file:
         test2 = pickle.load(file)
 
-    #random.seed(7)
+    random.seed(7)
     random.shuffle(patient)
     random.shuffle(normal)
 
@@ -144,8 +144,7 @@ if __name__ == '__main__':
         if not len(label):
             label = list(single_label)
         else:
-            label += list(single_label)
-                
+            label += list(single_label)   
 
     # make zipfiles 
     with zipfile.ZipFile('labels.zip', 'w') as z:
@@ -169,4 +168,3 @@ if __name__ == '__main__':
     plt.title(f'Predicted Result of {len(test_candidate)} samples')
     plt.show()
 
-    

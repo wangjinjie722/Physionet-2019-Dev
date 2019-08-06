@@ -53,15 +53,21 @@ custom = ['custom_age', 'custom_hr', 'custom_o2sat', 'custom_temp',
 def feature_engineer_cut(train):
     
     tmp = train.tail(1)
-    if len(train) <= 100:
+    if len(train) < 100:
         train = train.append([tmp] * (100 - len(train)))
-    elif len(train) > 100:
-        train = train[:100]
-    return train
+        return train
+    elif len(train) >= 100:
+        return train[:100].copy()
 
 def feature_engineer(train):
 
     train.fillna(method='pad', inplace = True)
+
+
+    # for index,col in train.iterrows():
+    #     train.at[index,'col_name']=new_value#更改值
+    # col['new_col']=new_col_value
+
 
     # hr
     train.loc[((train['HR'] >= 100) & (train['Age'] >= 10 ))
@@ -143,7 +149,7 @@ def feature_engineer(train):
     custom = 'custom_' + feature.lower()
     train.loc[(train[feature] >= down) & (train[feature] <= up), 'custom_' + feature.lower()] = 1
     train.loc[((train[feature] >= 70) & (train[feature] < down)) | (train[feature] > up & (train[feature] <= 120)), 'custom_' + feature.lower()] = 2
-    train.loc[(train[feature] < 70) | (train[feature] > 120), 'custom_' + feature.lower()] = 3 
+    train.loc[(train[feature] < 70) | (train[feature] > 120), 'custom_' + feature.lower()] = 4 
 
     # glucose
     feature = 'Glucose'
@@ -152,7 +158,7 @@ def feature_engineer(train):
     custom = 'custom_' + feature.lower()
     train.loc[(train[feature] >= down) & (train[feature] <= up), 'custom_' + feature.lower()] = 1
     train.loc[(train[feature] < down) | (train[feature].between(up, 200)), 'custom_' + feature.lower()] = 2
-    train.loc[(train[feature] >= 200), 'custom_' + feature.lower()] = 3
+    train.loc[(train[feature] >= 200), 'custom_' + feature.lower()] = 4
     
     # magnesium
     feature = 'Magnesium'
@@ -179,7 +185,7 @@ def feature_engineer(train):
     custom = 'custom_' + feature.lower()
     train.loc[(train[feature] >= down) & (train[feature] <= up), 'custom_' + feature.lower()] = 1
     train.loc[(train[feature] < down) | (train[feature] > up) & (train[feature] <= 6), 'custom_' + feature.lower()] = 2
-    train.loc[(train[feature] > 6), 'custom_' + feature.lower()] = 3
+    train.loc[(train[feature] > 6), 'custom_' + feature.lower()] = 4
 
     # hct
     feature = 'Hct'
@@ -225,9 +231,12 @@ def feature_engineer(train):
     train.loc[train['Unit1'] == 1, 'Unit'] = 1
     train.loc[train['Unit2'] == 1, 'Unit'] = 2
 
+    # Gender
+ #   train.loc[train['Gender'] == 0, 'Gender'] = 2
+    
     train.fillna(0, inplace = True)
     
-    return train
+    return train[feature_to_use].copy()
 
 def feature_engineering(train):
     train = feature_engineer_cut(train)
@@ -303,19 +312,16 @@ def fix_100(res, org_length):
         tmp_res = tmp_res[:org_length]
     else:
         last = tmp_res[-1]
-        tmp_res += [last for _ in range(org_length- l)]
+        tmp_res += [last for _ in range(org_length - l)]
 
     tmp_predict = [1 for _ in range(len(tmp_res))]
 
     for r in range(len(tmp_res)):
         if tmp_res[r] < threshold:
             tmp_predict[r] = 0
-        else:    
-            r += 1
-            while r < len(tmp_res):
-                tmp_res[r] = tmp_res[r - 1]
-                r += 1
-            break
+        else:
+            tmp_res_ = tmp_res[:r] + [tmp_res[r] for _ in range(len(tmp_res) - r)]  
+            return tmp_res_, tmp_predict
 
     return tmp_res, tmp_predict
 
@@ -326,16 +332,16 @@ def load_sepsis_model():
     return model
 
 # change me everytime you change the model
-NOW = '2019-08-05-09-07-30'
+NOW = '2019-08-05-17-54-24'
 model_name = f'./model/LSTM_{NOW}.h5'
-threshold = 0.3
+threshold = 0.5
 
 def get_sepsis_score(data, model):
     
     LSTM_model = model
-    cur_train = pd.read_csv(data, sep='|')
-    org_length = len(cur_train)
-    cur_train = feature_engineering(cur_train)[feature_to_use]
+    meta_data = pd.read_csv(data, sep='|')
+    org_length = len(meta_data)
+    cur_train = feature_engineering(meta_data)
     kw_loss = weighted_binary_crossentropy(weights=1)
 
     preds = [0 for _ in range(100)]
@@ -385,12 +391,13 @@ def get_sepsis_score(data, model):
         org_pred[t] = preds[t]
         if len(tmp_p) >= 2:
             tmp[t] /= len(tmp_p)
-            preds[t] = org_pred[t] * 0.9 + 0.1 * tmp[t]
+            preds[t] = org_pred[t] * 0.8 + 0.2 * tmp[t]
         else:
             preds[t] = org_pred[t]
 
     preds = [p if p > 0 else 0 for p in preds]
-    #preds = [abs(x) for x in preds]
+    preds_max = max(preds)
+    preds = [x / (preds_max + 0.2) for x in preds]
     #label = [1 if p >= threshold else 0 for p in preds]
     score, label = fix_100(preds, org_length)
     org_pred,_ = fix_100(org_pred, org_length)

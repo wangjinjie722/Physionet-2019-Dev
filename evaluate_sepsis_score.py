@@ -56,6 +56,7 @@ def evaluate_scores(label_file, prediction_file):
     prediction_files = sorted(f for f in tmp_files.namelist() if os.path.isfile(os.path.join(tmp_predictions_dir, f)))
     
     if len(label_files) != len(prediction_files):
+        print(len(label_files), len(prediction_files))
         raise Exception('Numbers of labels and predictions must be the same.')
 
     # Load labels and predictions.
