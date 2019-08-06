@@ -29,6 +29,8 @@ from sklearn.metrics import confusion_matrix, precision_score, recall_score, \
 import tensorflow as tf
 from get_sepsis_score import *
 
+# you can fix the test case order if you like
+#random.seed(7)
 
 if __name__ == '__main__':
 
@@ -54,8 +56,7 @@ if __name__ == '__main__':
     except:
         print('you need get the pkls from dachui wang or github')
 
-    # you can fix the test case order if you like
-    random.seed(7)
+    
     # shuffle it and get it randomly
     random.shuffle(patient)
     random.shuffle(normal)
