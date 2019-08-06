@@ -1,6 +1,4 @@
 #!/usr/bin/env python
-import tensorflow as tf
-tf.compat.v1.logging.set_verbosity(tf.logging.ERROR)
 
 import os
 import sys
@@ -428,10 +426,10 @@ def get_sepsis_score(data, model):
         # this makes predictions really slow and this is the way for offical check stage
         # blow code is used to get the official drive.py work
 
-#        cur_train = feature_engineering(cur_train)[feature_to_use]
-#        dtest = np.array(cur_train[custom][:t+1])
-#        dtest = dtest.reshape(-1,100,len(custom))
-#        predicted = list(LSTM_model.predict(dtest)[0])
+    #    cur_train = feature_engineering(cur_train)[feature_to_use]
+    #    dtest = np.array(cur_train[custom][:t+1])
+    #    dtest = dtest.reshape(-1,100,len(custom))
+    #    predicted = list(LSTM_model.predict(dtest)[0])
 
         preds[t] = predicted[t]
 
