@@ -31,39 +31,58 @@ import matplotlib.pyplot as plt
 
 # parameters
 
-feature_to_use = ['custom_age', 'custom_hr', 'custom_o2sat', 'custom_temp',
-                  'custom_resp', 'custom_hco3', 'custom_ph',
-                  'custom_bun', 'custom_BC_ratio', 
-                  'custom_calcium', 'custom_chloride', 'custom_creatinine', 
-                  'custom_glucose', 'custom_magnesium', 'custom_phosphate', 'custom_potassium',
-                  'custom_hct', 'custom_hgb', 'custom_wbc', 
-                  'custom_platelets', 'Gender', 'Unit', 'HospAdmTime', 'SepsisLabel']
+feature_to_use = ['custom_age', 'custom_hr', 'custom_o2sat', 'custom_temp', 
+                 'custom_resp', 'custom_hco3', 'custom_ph',
+                  'custom_bun', 'custom_BC_ratio', 'qSOFA', 'SOFA' ,'SOFA_score',
+                 'custom_calcium', 'custom_chloride', 'custom_creatinine',
+                 'custom_glucose', 'custom_magnesium', 'custom_phosphate', 'custom_potassium',
+                 'custom_hct', 'custom_hgb', 'custom_wbc', 
+                  'custom_platelets', 'Gender', 'Unit', 'HospAdmTime','SepsisLabel']
 
-custom = ['custom_age', 'custom_hr', 'custom_o2sat', 'custom_temp',
-          'custom_resp', 'custom_hco3', 'custom_ph',
-          'custom_bun', 'custom_BC_ratio',
-          'custom_calcium', 'custom_chloride', 'custom_creatinine',
-          'custom_glucose', 'custom_magnesium', 'custom_phosphate', 'custom_potassium',
-          'custom_hct', 'custom_hgb', 'custom_wbc',
-          'custom_platelets', 'Gender', 'Unit', 'HospAdmTime']
+custom = ['custom_age', 'custom_hr', 'custom_o2sat', 'custom_temp', 
+                 'custom_resp', 'custom_hco3', 'custom_ph',
+                  'custom_bun', 'custom_BC_ratio', 'qSOFA', 'SOFA' ,'SOFA_score',
+                 'custom_calcium', 'custom_chloride', 'custom_creatinine',
+                 'custom_glucose', 'custom_magnesium', 'custom_phosphate', 'custom_potassium',
+                 'custom_hct', 'custom_hgb', 'custom_wbc', 
+                  'custom_platelets', 'Gender', 'Unit', 'HospAdmTime']
 
 # Missing:0 normal:1 abnormal:2 low:3 high:6 serious:5 moderate:4 elevated:7
 # infant:1 adult:2 old:3
 
 def feature_engineer_cut(train):
-    
+    '''
+        unit every patient to 100 time length
+        input: dataframe for one patient
+        output: dataframe for the same patient with 100 time length
+
+                use .copy to avoid copying warning
+    '''
     tmp = train.tail(1)
     if len(train) < 100:
-        train = train.append([tmp] * (100 - len(train)))
-        return train
+        train = train.append([tmp] * (100 - len(train) - 1))
+        return train.copy()
     elif len(train) >= 100:
-        return train[:100].copy()
+        return train[:99].copy()
 
 def feature_engineer(train):
+    '''
+        create new features
 
+        custom = ['custom_age', 'custom_hr', 'custom_o2sat', 'custom_temp', 
+                 'custom_resp', 'custom_hco3', 'custom_ph',
+                  'custom_bun', 'custom_BC_ratio', 'qSOFA', 'SOFA' ,'SOFA_score',
+                 'custom_calcium', 'custom_chloride', 'custom_creatinine',
+                 'custom_glucose', 'custom_magnesium', 'custom_phosphate', 'custom_potassium',
+                 'custom_hct', 'custom_hgb', 'custom_wbc', 
+                  'custom_platelets', 'Gender', 'Unit', 'HospAdmTime']
+                
+        up-to-date feature we will use
+        08/06 - kw - add some sofa features
+    '''
     train.fillna(method='pad', inplace = True)
 
-
+    # zhaoweizhu 08/05/2019 new method
     # for index,col in train.iterrows():
     #     train.at[index,'col_name']=new_value#更改值
     # col['new_col']=new_col_value
@@ -120,7 +139,8 @@ def feature_engineer(train):
     train.loc[(train[feature].between(up, 60)), 'custom_' + feature.lower()] = 2
     train.loc[(train[feature] < down), 'custom_' + feature.lower()] = 3
     train.loc[(train[feature] >= 60), 'custom_' + feature.lower()] = 4
-    train.loc[(train['BUN'] != None) & (train['Creatinine'] != None) & ((train['BUN']/train['Creatinine'] >= 10) | (train['BUN']/train['Creatinine'] <= 20)), 'custom_BC_ratio'] = 1
+    train.loc[(train['BUN'] != None) & (train['Creatinine'] != None) & ((train['BUN']/train['Creatinine'] >= 10) 
+        | (train['BUN']/train['Creatinine'] <= 20)), 'custom_BC_ratio'] = 1
     
     # creatinine
     feature = 'Creatinine'
@@ -232,26 +252,63 @@ def feature_engineer(train):
     train.loc[train['Unit2'] == 1, 'Unit'] = 2
 
     # Gender
- #   train.loc[train['Gender'] == 0, 'Gender'] = 2
+    train.loc[train['Gender'] == 0, 'Gender'] = 2
+    
+    # SOFA
+    train.loc['SOFA'] = 0
+    train.loc[train['Platelets'].between(150, 99),'SOFA'] = 1
+    train.loc[train['Platelets'].between(100, 50),'SOFA'] = 2
+    train.loc[train['Platelets'].between(49, 20),'SOFA'] = 3
+    train.loc[train['Platelets'].between(19, 1),'SOFA'] = 4
+    train['SOFA'].fillna(0, inplace = True)
+
+    train.loc[train['Bilirubin_direct'].between(1.2, 1.9),'SOFA'] += 1
+    train.loc[train['Bilirubin_direct'].between(2, 5.9),'SOFA'] += 2
+    train.loc[train['Bilirubin_direct'].between(6, 11.9),'SOFA'] += 3
+    train.loc[train['Bilirubin_direct'] > 12,'SOFA'] += 4
+    
+    train.loc[train['Creatinine'].between(1.2, 1.9),'SOFA'] += 1
+    train.loc[train['Creatinine'].between(2, 3.4),'SOFA'] += 2
+    train.loc[train['Creatinine'].between(3.5, 4.9),'SOFA'] += 3
+    train.loc[train['Creatinine'] > 5,'SOFA'] += 4
+    
+    # SOFA_socre
+    train.loc[train['SOFA'] > 2,'SOFA_score'] = 2 # abnormal
+    train.loc[train['SOFA'] <= 2,'SOFA_score'] = 1 # normal
+   
+    # qSOFA
+    
+    train.loc[(train['Resp'] > 22) & (train['SBP'] < 100),'qSOFA'] = 2 # abnormal
+    train.loc[(train['Resp'] <= 22) | (train['SBP'] >= 100),'qSOFA'] = 1 # normal
     
     train.fillna(0, inplace = True)
     
     return train[feature_to_use].copy()
 
 def feature_engineering(train):
+    '''
+        feature engineering function
+        input: dataframe meta_data for one patient
+        output: dataframe for the same patient with new features and 100 time length
+    '''
     train = feature_engineer_cut(train)
     train = feature_engineer(train)
     return train
 
 def w_binary_crossentropy(y_true, y_pred):
-    return K.mean(tf.nn.weighted_cross_entropy_with_logits(
-                                                           y_true,
-                                                           y_pred,
-                                                           1,
-                                                           name=None
-                                                           ), axis=-1)
+        return K.mean(tf.nn.weighted_cross_entropy_with_logits(
+                                                               y_true,
+                                                               y_pred,
+                                                               weights,
+                                                               name=None
+                                                               ), axis=-1)
 
 def weighted_binary_crossentropy(weights):
+    '''
+        self-defined loss function (weighted binary crossentropy)
+        input: weights
+        output: loss function with weight
+    '''
     def w_binary_crossentropy(y_true, y_pred):
         return K.mean(tf.nn.weighted_cross_entropy_with_logits(
                                                                y_true,
@@ -260,9 +317,11 @@ def weighted_binary_crossentropy(weights):
                                                                name=None
                                                                ), axis=-1)
     return w_binary_crossentropy
-    
+
+# wbc loss function used to make the model relys more on sepsis samples
 kw_loss = weighted_binary_crossentropy(weights=1)
 
+# the four functions blow are used for metrics, f-measure is also used in offical check
 def precision(y_true, y_pred):
     # Calculates the precision
     true_positives = K.sum(K.round(K.clip(y_true * y_pred, 0, 1)))
@@ -296,17 +355,16 @@ def fmeasure(y_true, y_pred):
 
 def fix_100(res, org_length):
     """
-    input: 
-            res label are given by predict
-            org_length is the original length of each patient
-            t is threshold
-    output:
-            fixed probabilities, original labels and predictions of original length,
-            also processed by threshold
-            
+        This is a function that convert 100 time long sequence to its original length that can be checked by utility score.
+        input: 
+                res is the output of your model
+                org_length is the original length of each patient
+                threshold is defined as global
+        output:
+                sepsis probabilities and predictions, of course in original length
     """
     l = 100 # fixed length of each patient
-    
+    # inilization for probabilities and predictions with original length
     tmp_res = list(res)
     if org_length <= l:
         tmp_res = tmp_res[:org_length]
@@ -332,30 +390,40 @@ def load_sepsis_model():
     return model
 
 # change me everytime you change the model
-NOW = '2019-08-05-17-54-24'
+NOW = '2019-08-06-10-40-04'
 model_name = f'./model/LSTM_{NOW}.h5'
 threshold = 0.5
 
 def get_sepsis_score(data, model):
     
+    # load your model
     LSTM_model = model
+    # read meta_data in psv format
     meta_data = pd.read_csv(data, sep='|')
+    # get orginal length that can be used to convert to its orginal
     org_length = len(meta_data)
+    #print(org_length)
+    # feature engineering
     cur_train = feature_engineering(meta_data)
+    #print(len(cur_train))
+    # define weighted loss that maybe use, you can ignore it if you are not gonna use it
     kw_loss = weighted_binary_crossentropy(weights=1)
 
+    # inilization for the save of result
     preds = [0 for _ in range(100)]
     org_pred = [0 for _ in range(100)]
     tmp = [0 for _ in range(100)]
 
+    # process the test data
     dtest = np.array(cur_train[custom])
     dtest = dtest.reshape(-1,100,len(custom))
-    #print(LSTM_model.predict(dtest)[0])
-    predicted = list(LSTM_model.predict(dtest)[0])
+    predicted = list(LSTM_model.predict(dtest)[0]) # if you use reshape to make it 3-dim, you need [0] here trust me :-)
+    # save the true label
     org_label = cur_train['SepsisLabel']
 
     for t in range(100):
-        # this makes predictions really slow
+        # this makes predictions really slow and this is the way for offical check stage
+        # blow code is used to get the official drive.py work
 
 #        cur_train = feature_engineering(cur_train)[feature_to_use]
 #        dtest = np.array(cur_train[custom][:t+1])
@@ -364,7 +432,7 @@ def get_sepsis_score(data, model):
 
         preds[t] = predicted[t]
 
-        # xiuzheng zaici
+        # This is the correction method that can deal with the high false positive rate
         
         front_preds = []
         if t >= 1:
@@ -376,6 +444,7 @@ def get_sepsis_score(data, model):
 
         tmp_fp = []
         tmp_p = []
+
         for fp in front_preds:
             if fp >= threshold:
                 tmp_fp.append(1)
@@ -386,11 +455,10 @@ def get_sepsis_score(data, model):
         tmp[t] = 0
         for i in range(len(tmp_p)):
             tmp[t] += (tmp_p[i] * tmp_fp[i])
-# print(preds[t], tmp_fp,f'*----{t}--------')
-# print(len(preds[t]))
         org_pred[t] = preds[t]
         if len(tmp_p) >= 2:
             tmp[t] /= len(tmp_p)
+            # change this two weight to change the correction method
             preds[t] = org_pred[t] * 0.8 + 0.2 * tmp[t]
         else:
             preds[t] = org_pred[t]
@@ -399,10 +467,13 @@ def get_sepsis_score(data, model):
     preds_max = max(preds)
     preds = [x / (preds_max + 0.2) for x in preds]
     #label = [1 if p >= threshold else 0 for p in preds]
-    score, label = fix_100(preds, org_length)
-    org_pred,_ = fix_100(org_pred, org_length)
-    tmp,_ = fix_100(tmp, org_length)
-    org_label, _ = fix_100(org_label, org_length)
 
+    # these parameters are used to plot
+    score, label = fix_100(preds, org_length) # probabilities and predicted label required by offical check
+    org_pred,_ = fix_100(org_pred, org_length) # this is the original predicted probabilities given by model
+    tmp,_ = fix_100(tmp, org_length) # this is the correction value given by the front 3 points
+    org_label, _ = fix_100(org_label, org_length) # this is the true label
+
+    # you can change the output if you like
     return score, label, org_pred, tmp
 

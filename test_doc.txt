@@ -24,3 +24,6 @@ LSTM_{NOW}.h5 | bidirectional
 2019-08-05-09-07-30 | nle Only LSTM ep_30 bs_16 01_rate=2 mse_loss weights_1 
 2019-08-05-16-47-21 | nle Only LSTM ep_30 bs_16 01_rate=2 mse_loss weights_1 
 2019-08-05-17-54-24 | nle Only LSTM ep_30 bs_16 01_rate=2 mse_loss weights_3  with mask
+2019-08-06-10-40-04 | with SOFA 1 dense ep_30 bs_16 01_rate=2 mse_loss weights_1 
+2019-08-06-10-55-38 | with SOFA 1 dense ep_50 bs_16 01_rate=2 mse_loss weights_1 
+2019-08-06-11-16-12 | with SOFA 1 dense ep_50 bs_16 01_rate=2 mse_loss weights_1 

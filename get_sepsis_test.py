@@ -1,8 +1,5 @@
 #!/usr/bin/env python
 
-import tensorflow as tf
-tf.compat.v1.logging.set_verbosity(tf.logging.ERROR)
-
 import os
 import sys
 import copy
@@ -45,17 +42,34 @@ if __name__ == '__main__':
     org_pred = [] # current point's prediction
     top3 = [] # 3 points' predictions in front
     
-    with open('./data/patient.pkl', 'rb') as file:
-        patient = pickle.load(file)
-    with open('./data/normal.pkl', 'rb') as file:
-        normal = pickle.load(file)
+    # load patient list if you like
+    try:
+        with open('./data/patient.pkl', 'rb') as file:
+            patient = pickle.load(file)
+        with open('./data/normal.pkl', 'rb') as file:
+            normal = pickle.load(file)
 
-    with open('./data/test2.pkl', 'rb') as file:
-        test2 = pickle.load(file)
+        with open('./data/test2.pkl', 'rb') as file:
+            test2 = pickle.load(file)
+    except:
+        print('you need get the pkls from dachui wang or github')
 
+    # you can fix the test case order if you like
     random.seed(7)
+    # shuffle it and get it randomly
     random.shuffle(patient)
     random.shuffle(normal)
+
+    # this is the options that you can find the details in readme.md
+    # 0 代表全是正常人 
+    # - 1 代表全是病人 
+    # - 2 代表比例为7.8%的病人正常人混合样本 
+    # - 3 需要在数量位置传入新参数trainingA/p019094.psv 代表预测当前特指的样本
+    # - 11 测试集1含有1000个随机出的样本
+    # - 22 测试集2含有1000个随机出的样本
+    # - 55 测试集3含有500个随机出的样本
+    # - 555 测试集4含有500个随机出的样本
+    # - 911 test the same cases as official drive.py
 
     if int(sys.argv[1]) == 1:
         test_candidate = patient[:int(int(sys.argv[2]) // 1)]
@@ -87,13 +101,12 @@ if __name__ == '__main__':
         if '.DS_Store' in tmp_candidate:
             tmp_candidate.remove('.DS_Store')
         test_candidate = ['trainingA/' + l for l in tmp_candidate]
-        
+    # shuffle it again
     random.shuffle(test_candidate)
 
-    # empty the result dir
+    # empty the result dir everytime you predict
     predict_dir = './predictions'
     label_dir = './labels'
-    
     shutil.rmtree(predict_dir)
     os.mkdir(predict_dir)
     shutil.rmtree(label_dir)
@@ -101,24 +114,29 @@ if __name__ == '__main__':
     
     # test every case
     for i in tqdm(test_candidate):
-        
+    
         name = i[10:17]
         i = './data/' + i
         tmp_data = pd.read_csv(i, sep='|')
         single_org = tmp_data['SepsisLabel']
+
+        # you need to change the predict sentence as your predict function
+        # input should be the name of test case like './data/trainingA/p000100.psv'
         single_score, single_label, single_pred, single_top3 = get_sepsis_score(i, MODEL)
         
         # save results
+        # name is the number of patient like 'p000100'
         with open(f'./labels/{name}.txt', 'w') as f:
             f.write('SepsisLabel\n')
+            # single_org is the true label
             if len(single_org) != 0:
                 for l in list(single_org):
-                    #print(l, list(single_org))
                     f.write('%d\n' % l)
                 f.close()
     
         with open(f'./predictions/{name}.txt', 'w') as f:
             f.write('PredictedProbability|PredictedLabel\n')
+            # single score is probabilities and label is predicted label
             if len(single_score) != 0:
                 for (s, l) in zip(list(single_score), list(single_label)):
                     f.write('%g|%d\n' % (s, l))
@@ -156,14 +174,17 @@ if __name__ == '__main__':
             name = i[10:17]
             z.write(f'./predictions/{name}.txt')
 
-    # plot
+    # plot part
+    # make it more clear for true value and predicted value
     org_label = [ol + 0.05 if ol == 1 else ol - 0.05 for ol in org_label]
+
     plt.figure(1)
-    plt.scatter(list(range(len(org_label))), score,c = 'g',alpha = 0.1)
-    plt.scatter(list(range(len(org_label))), org_label,c = 'b',alpha = 0.1)
-    plt.scatter(list(range(len(org_label))), label,c = 'r',alpha = 0.1)
-    plt.scatter(list(range(len(org_label))), org_pred,c = 'black',alpha = 0.1)
-    plt.scatter(list(range(len(org_label))), top3,c = 'y',alpha = 0.1)
+    plt.scatter(list(range(len(org_label))), score,c = 'g',alpha = 0.1) # probabilities
+    plt.scatter(list(range(len(org_label))), org_label,c = 'b',alpha = 0.1) # true label
+    plt.scatter(list(range(len(org_label))), label,c = 'r',alpha = 0.1) # predicted label
+    plt.scatter(list(range(len(org_label))), org_pred,c = 'black',alpha = 0.1) # original prababilities on current point
+    plt.scatter(list(range(len(org_label))), top3,c = 'y',alpha = 0.1) # corrections values for 3 points in front of current point
+    
     plt.legend(['probability','true','prdicted','org_pred','top3'], loc = 'lower right')
     plt.title(f'Predicted Result of {len(test_candidate)} samples')
     plt.show()
