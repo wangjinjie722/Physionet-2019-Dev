@@ -417,7 +417,10 @@ def get_sepsis_score(data, model):
     # process the test data
     dtest = np.array(cur_train[custom])
     dtest = dtest.reshape(-1,100,len(custom))
+
+    # change me if you use different kind of model
     predicted = list(LSTM_model.predict(dtest)[0]) # if you use reshape to make it 3-dim, you need [0] here trust me :-)
+    
     # save the true label
     org_label = cur_train['SepsisLabel']
 
